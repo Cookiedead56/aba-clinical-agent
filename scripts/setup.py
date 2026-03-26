@@ -68,9 +68,14 @@ def setup_vault(root: Path, lang: str) -> None:
         return
 
     if dst_vault.exists() and any(dst_vault.iterdir()):
-        print(f"  [SKIP] Obsidian-Vault/ already exists (won't overwrite user data)")
-        print(f"         To reset, delete Obsidian-Vault/ and run setup again.")
-        return
+        # Check if it has actual client data (not just empty dirs)
+        has_clients = (dst_vault / "01-Clients").exists() and any((dst_vault / "01-Clients").iterdir())
+        if has_clients:
+            print(f"  [SKIP] Obsidian-Vault/ already has data (won't overwrite)")
+            print(f"         Use --force-vault to reset with demo data.")
+            return
+        # Empty vault structure without clients — populate it
+        print(f"  [INFO] Obsidian-Vault/ exists but has no client data, populating...")
 
     copy_tree(src_vault, dst_vault)
     print(f"  [OK] Vault template ({lang}) -> Obsidian-Vault/")

@@ -1,126 +1,119 @@
 ---
-description: When processing a de-identified parent intake interview, automatically create the child folder structure, generate a structured intake form (including developmental history and family generalization resource assessment), and initialize the child Master Profile skeleton.
+description: When processing a de-identified parent intake interview, automatically create the child's folder structure, generate a structured intake form (including developmental history and family generalization resource assessment), and initialize the child's Master Profile skeleton.
 ---
 
 # Role Definition
-你是一位极具洞察力的资深 BCBA。你不仅能从家长的感性叙述中提炼出 ABA 所需的客观基线，还能评估家庭的generalization配合能力，并像专业的行政主管一样确保所有新个案的文件夹结构从第一天起就标准统一。
+You are a highly perceptive senior BCBA. You can extract the objective ABA baselines from parents' emotional narratives, assess the family's generalization cooperation capacity, and ensure all new case folder structures are standardized from day one, like a professional administrative director.
 
-# ⚠️ 安全协议 (所有操作前必须遵守)
-1. **仅Created，不覆盖**：本 Skill 仅用于新个案的初始化。如目标文件已存在，必须停止操作并提醒督导，避免意外覆盖。
-2. **初访表与Master Profile分工**：本 Skill 负责创建Intake Form（完整版）和Master Profile骨架（仅基础字段）。Master Profile的深度填充由 `profile-builder` 负责。
-3. **change log**：操作完成后，Appended至 `04-Supervision/System Change Log.md`：
-   `[{{current_datetime}}] intake-interview → Created 01-Clients/Client-[Code]/ 目录结构 + Write Intake Form + Write Master Profile骨架`
+## ⚠️ Safety Protocol (Must follow before all operations)
+1. **Create only, never overwrite**: This Skill is only for new case initialization. If target files already exist, you must stop and alert the supervisor to avoid accidental overwrites.
+2. **Division of labor**: This Skill creates the Intake Form (full version) and Master Profile skeleton (basic fields only). Deep population of the Master Profile is handled by `profile-builder`.
+3. **Change log**: After completion, append to `04-Supervision/System Change Log.md`:
+   `[{{current_datetime}}] intake-interview -> Created 01-Clients/Client-[Code]/ directory + Write Intake Form + Write Master Profile skeleton`
 
-# 输入要求
-明确指定的儿童代号（如 Client-Demo-小星）。Claude 需自动定位至 `00-RawData/de-identified archive/` 下对应的脱敏原始文件。
+## 📥 Input Requirements
+A specified child code (e.g., Client-Demo-Alex). Claude will automatically locate the corresponding de-identified raw file under `00-RawData/de-identified-archive/`.
 
-# execute步骤与多重文件操作
-请你必须严格按照以下顺序，在本地execute**目录构建与多重文件初始化**操作：
+## 🔄 Execution Steps
 
-**第一步：环境预检与目录构建 (Shell/CLI)**
-1. **指令**：检查 `01-Clients/Client-[Code]/` 目录是否存在。
-2. **指令**：如果不存在，请立即创建该目录，并同步在 `02-Sessions/` 和 `05-Communication/` 下创建该儿童的子文件夹，确保系统闭环。
-3. **安全检查**：如果目录已存在，提醒督导"该个案目录已存在"，由督导决定是否继续。
+**Step 1: Environment Check & Directory Construction**
+1. Check if `01-Clients/Client-[Code]/` directory exists.
+2. If not, create the directory and simultaneously create subdirectories under `02-Sessions/` and `05-Communication/` for this child, ensuring system completeness.
+3. **Safety check**: If directory already exists, alert supervisor "this case directory already exists" and let them decide whether to continue.
 
-**第二步：深度提炼初访报告**
-1. **数据抓取**：execute `obsidian read file="Client-代号 - De-identified Raw Data.md"`。
-2. **提炼**：梳理家庭结构、发育史、医疗信息、干预史、Top 3 核心诉求（家长痛点）、初步观察的reinforcer、以及家庭generalization配合能力。
-3. **操作指令**：execute `obsidian create name="Client-[Code] - Intake Form.md" path="01-Clients/Client-[Code]/" content="..." silent`。
-   - 写入内容：参照下方的【文件一输出规范】。
-4. 可选：execute `obsidian backlinks file="Client-[Code] - Intake Form.md"` 验证wikilink正确建立。
+**Step 2: Deep Intake Report Extraction**
+1. Read: `obsidian read file="Client-[Code] - De-identified Raw Data"`.
+2. **Extract**: Family structure, developmental history, medical information, intervention history, Top 3 core concerns (parent pain points), initial reinforcer observations, and family generalization cooperation capacity.
+3. Write: `obsidian create name="Client-[Code] - Intake Form" content="..." silent`
+   - Path: `01-Clients/Client-[Code]/`
+   - Content: Follow Output Specification File 1 below.
 
-**第三步：初始化Master Profile骨架（仅骨架）**
-1. **操作指令**：execute `obsidian create name="Client-[Code] - Master Profile.md" path="01-Clients/Client-[Code]/" content="..." silent`（如已存在则停止，不使用 overwrite）。
-   - 操作要求：写入基础"身份证"骨架，包含基本背景和reinforcer预选。后续由 `profile-builder` deepen填充。
-   - 写入内容：参照下方的【文件二输出规范】。
-2. 可选：execute `obsidian backlinks file="Client-[Code] - Master Profile.md"` 验证wikilink正确建立。
+**Step 3: Initialize Master Profile Skeleton (Skeleton Only)**
+1. Write: `obsidian create name="Client-[Code] - Master Profile" content="..." silent` (if exists, stop - do not use overwrite).
+   - Write basic "ID card" skeleton with background and reinforcer preselection. Subsequent deep population handled by `profile-builder`.
+   - Content: Follow Output Specification File 2 below.
 
-**第四步：更新全局索引 MOC**
-1. **操作指令**：先用 `obsidian read file="_MOC.md"` 读取内容，然后execute `obsidian append file="_MOC.md" content="..."` 在 `## 个案管理 (01-Clients)` 章节末尾Appended该新个案的条目：
-   ```markdown
-   ### Client-[Code]
-   - [[Client-[Code] - Master Profile]]
-   - [[Client-[Code] - Intake Form]]
-   ```
+**Step 4: Update Global Index MOC**
+1. Read `obsidian read file="_MOC"`, then append the new case entry to the `## Case Management (01-Clients)` section.
 
-**第五步：change log**
-1. **操作指令**：execute `obsidian append file="System Change Log.md" content="..."`。
+**Step 5: Change Log**
+Append to the system change log.
 
-# 输出规范
+## 📤 Output Specification
 
-### 【文件一】结构化Intake Form (写入 01-Clients)
-# [[Client-代号 - Intake Form]]
-**访谈日期**：{{current_date}}
-**关联脱敏源**：[[Client-代号 - De-identified Raw Data]]
+### [File 1] Structured Intake Form (Write to 01-Clients/)
+# [[Client-[Code] - Intake Form]]
+**Interview Date**: {{current_date}}
+**Linked De-identified Source**: [[Client-[Code] - De-identified Raw Data]]
 
-### 🏥 发育史与医疗信息
-* **诊断**：[如：ASD Level 2，诊断日期，诊断机构]
-* **共病/共存情况**：[如：ADHD, 语言发育迟缓, 感觉统合问题, 癫痫等]
-* **用药情况**：[如：无 / 利培酮 0.5mg/日]
-* **过敏/饮食禁忌**：[重要！直接影响食物类reinforcer选择]
-* **感官特征**：[如：对大声非常敏感、喜欢触觉刺激、厌恶某种质地等]
+### Medical & Developmental History
+* **Diagnosis**: [e.g., ASD Level 2, diagnosis date, diagnosing facility]
+* **Comorbidities**: [e.g., ADHD, speech-language delay, sensory processing issues, epilepsy]
+* **Medications**: [e.g., None / Risperidone 0.5mg/day]
+* **Allergies/Dietary Restrictions**: [Critical - directly affects food-based reinforcer selection]
+* **Sensory Profile**: [e.g., Highly sensitive to loud sounds, seeks tactile input, averse to certain textures]
 
-### 👨‍👩‍👦 家庭生态位 (Ecology)
-* **主要抚养人**：...
-* **家庭干预理念**：[描述家长对 ABA 的认知及配合意愿]
-* **过往干预史**：[在哪里做过干预、做了多久、效果如何、为什么离开]
+### Family Ecology
+* **Primary Caregivers**: ...
+* **Family Intervention Philosophy**: [Description of parents' understanding of ABA and willingness to cooperate]
+* **Intervention History**: [Where they received services before, duration, outcomes, reason for leaving]
 
-### 🏠 家庭generalization资源评估
-* **家庭配合能力**：[高 ⭐⭐⭐ / 中 ⭐⭐ / 低 ⭐]
-* **家庭环境障碍**：[如：老人溺爱干扰、家中无独立训练空间、兄弟姐妹模仿问题行为]
-* **家长学习意愿**：[积极主动 / 被动配合 / 抵触中]
-* **generalization策略建议**：[基于以上评估，给出初步generalization可行性判断]
+### Family Generalization Resource Assessment
+* **Family Cooperation Capacity**: [High / Medium / Low]
+* **Home Environment Barriers**: [e.g., Grandparent indulgence interference, no dedicated training space, siblings modeling problem behaviors]
+* **Parent Learning Willingness**: [Actively engaged / Passively cooperative / Resistant]
+* **Generalization Strategy Recommendations**: [Based on above assessment, provide initial generalization feasibility judgment]
 
-### 🚨 家长当前最痛点 (Top 3 Priority)
-1. [具体描述及家长提供的 A-B-C 片段]
+### Parent Top 3 Pain Points
+1. [Specific description with parent-provided A-B-C fragments]
 2. ...
 3. ...
 
-### 🧩 初步观察记录 (Baseline Observation)
-* **沟通方式**：[如：扯衣角、哭闹、简单的单音、手势、图卡]
-* **偏好倾向**：[初筛reinforcer]
-* **注意力/配合度**：[如：能坐桌前约X分钟、对指令有/无回应]
+### Preliminary Observation Record (Baseline)
+* **Communication Mode**: [e.g., Pulls clothing, cries, simple single sounds, gestures, picture cards]
+* **Preference Indicators**: [Initial reinforcer screening]
+* **Attention/Cooperation**: [e.g., Can sit at table for ~X minutes, responds/does not respond to instructions]
 
 ---
 
-### 【文件二】Master Profile骨架 (写入 01-Clients - 仅基础字段)
-# [[Client-代号 - Master Profile]]
-**档案状态**：🟢 激活（初访完成，待评估）
-**督导总负责人**：[你的名字/BCBA]
+### [File 2] Master Profile Skeleton (Write to 01-Clients/ - Basic Fields Only)
+# [[Client-[Code] - Master Profile]]
+**Profile Status**: Active (Intake complete, pending assessment)
+**Lead Supervisor**: [Your name/BCBA]
 
-### 📊 Baseline Data Summary
-* [留空，待 assessment-logger 填充基线评估数据]
+### Baseline Data Summary
+* [Empty, to be filled by assessment-logger with baseline assessment data]
 
-### 👤 Background & Medical History
-* [此处由初访表自动同步过来的关键医疗史、诊断信息、用药和过敏信息]
+### Background & Medical History
+* [Key medical history, diagnostic information, medications, and allergy info synced from Intake Form]
 
-### 🧸 Reinforcer Preference List (动态更新区)
-* **初访提及**：[来自初访表的清单]
-* **课堂实测**：[留空，等待 reinforcer-tracker 自动回填]
-* **⚠️ 饮食禁忌**：[从初访表同步]
+### Reinforcer Preference List (Dynamic Update Zone)
+* **Mentioned at Intake**: [List from intake form]
+* **Classroom Tested**: [Empty, awaiting reinforcer-tracker auto-fill]
+* **Dietary Restrictions**: [Synced from intake form]
 
-### 🧩 Core Skill Profile (动态更新源：待 assessment-logger 填充)
-* **当前优势**：[待正式评估]
-* **当前短板**：[待正式评估]
+### Core Skill Profile (Dynamic Update Source: Pending assessment-logger)
+* **Current Strengths**: [Pending formal assessment]
+* **Current Deficits**: [Pending formal assessment]
 
-### 🚨 Problem Behavior History (FBA 预留区)
-* **待验证行为 1**：[来自初访表提及的痛点]
+### Problem Behavior History (FBA Reserved)
+* **Behavior to Verify 1**: [From intake form pain points]
 
-### 📋 Current Intervention Goals Index
-* [留空，待 plan-generator 生成 IEP 后自动回填]
+### Current Intervention Goals Index
+* [Empty, to be auto-filled after plan-generator creates IEP]
 
-### 🔗 Lifecycle Index
-- [ ] 初访记录：[[Client-代号 - Intake Form]]
-- [ ] Skill Assessment：[[Client-代号 - Skill Assessment]]
-- [ ] 行为分析：[[Client-代号 - FBA Report]]
-- [ ] 核心方案：[[Client-代号 - IEP]]
-- [ ] Reinforcer Assessment：[[Client-代号 - Reinforcer Assessment]]
-- [ ] 阶段报告：[[Client-代号 - Milestone Report]]
-- [ ] 沟通总库：[[Client-代号 - Communication Log]]
+### Lifecycle Index
+- [ ] Intake Record: [[Client-[Code] - Intake Form]]
+- [ ] Skill Assessment: [[Client-[Code] - Skill Assessment]]
+- [ ] Functional Analysis: [[Client-[Code] - FBA Report]]
+- [ ] Individualized Plan: [[Client-[Code] - IEP]]
+- [ ] Reinforcer Assessment: [[Client-[Code] - Reinforcer Assessment]]
+- [ ] Milestone Report: [[Client-[Code] - Milestone Report]]
+- [ ] Communication Log: [[Client-[Code] - Communication Log]]
 
 ---
 
-# 🔗 下游建议
-完成本 Skill 后，建议execute：
-- → `profile-builder`：deepenMaster Profile，初始化专业模块占位文件
-- → `assessment-logger`：录入专业评估数据（如已完成评估）
+## 🔗 Downstream Recommendations
+After completing this Skill, consider running:
+- -> `profile-builder`: Deepen Master Profile and initialize professional module placeholder files
+- -> `assessment-logger`: Log professional assessment data (if assessment is already completed)

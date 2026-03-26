@@ -1,105 +1,105 @@
 ---
 name: aba-data-trend
-description: ABA个训数据趋势分析skill。当督导上传近期的每日反馈表（PDF格式）时，自动提取个训项目数据，分析各项目的百分比走向、掌握情况、学习速度，生成结构化对比表格和中文文字总结。适用于：上传多天的每日反馈表后要求分析数据趋势、对比近期项目进展、查看哪些项目接近掌握标准、哪些项目停滞需要调整。即使用户只是说"帮我看看最近的数据"或"分析一下这几天的反馈表"，也应该触发此skill。注意：本skill有配套Python脚本，请务必使用脚本而非自行编写解析逻辑。
+description: ABA session data trend analysis skill. When the supervisor uploads recent daily feedback forms (PDF format), automatically extract session program data, analyze percentage trends, mastery status, and learning velocity for each program, generating structured comparison tables and text summaries. Applicable when uploading multiple days of feedback forms for trend analysis, comparing recent program progress, checking which programs are approaching mastery criteria, or which are stalled and need adjustment. Even if the user simply says "check the recent data" or "analyze these feedback forms," this skill should be triggered. Note: This skill has companion Python scripts - always use the scripts rather than writing your own parsing logic.
 ---
 
-# ABA个训数据趋势分析
+# ABA Session Data Trend Analysis
 
-## 概述
+## Overview
 
-本skill用于从每日反馈表PDF中提取**个训项目**数据，进行多日趋势分析，输出结构化Excel报告和中文文字总结。
+This skill extracts **session program** data from daily feedback form PDFs, performs multi-day trend analysis, and outputs structured Excel reports and text summaries.
 
-## 前置依赖
+## Prerequisites
 
-运行前确保环境中已安装：
+Ensure the following are installed before running:
 ```bash
-# PDF文本提取工具（必须）
+# PDF text extraction tool (required)
 sudo apt-get install -y poppler-utils
-# Python依赖（必须）
+# Python dependency (required)
 pip install openpyxl
 ```
 
-## 使用方法
+## Usage
 
-**第一步**：用户上传1-10份每日反馈表PDF文件。
+**Step 1**: User uploads 1-10 daily feedback form PDF files.
 
-**第二步**：确认文件路径后，直接调用本skill目录下的脚本：
+**Step 2**: After confirming file paths, call the script in this skill's directory:
 
 ```bash
 python3 <skill_dir>/scripts/analyze.py \
   --files <pdf1> <pdf2> <pdf3> ... \
-  --output <输出目录>/个训数据趋势分析.xlsx
+  --output <output_dir>/session_data_trend_analysis.xlsx
 ```
 
-参数说明：
-- `--files`：一个或多个PDF文件路径，空格分隔
-- `--output`：输出Excel文件路径（默认为当前目录下的 `个训数据趋势分析.xlsx`）
-- `--student`：学生姓名（可选，脚本会自动从PDF中提取）
+Parameters:
+- `--files`: One or more PDF file paths, space-separated
+- `--output`: Output Excel file path (defaults to `session_data_trend_analysis.xlsx` in current directory)
+- `--student`: Student name (optional, script auto-extracts from PDF)
 
-**第三步**：脚本会自动完成以下工作：
-1. 用 `pdftotext` 提取PDF文本（比直接读PDF可靠得多）
-2. 解析个训项目数据（项目名称、百分比、是否掌握）
-3. 按日期排序，构建项目×日期的数据矩阵
-4. 计算每个项目的趋势方向、均值、掌握状态
-5. 生成Excel报告（含数据表格sheet和文字总结sheet）
-6. 在终端输出文字版总结
+**Step 3**: The script automatically:
+1. Extracts PDF text using `pdftotext` (more reliable than direct PDF reading)
+2. Parses session program data (program name, percentage, mastery status)
+3. Sorts by date, builds a program x date data matrix
+4. Calculates trend direction, mean, and mastery status for each program
+5. Generates an Excel report (data table sheet + text summary sheet)
+6. Outputs text summary to terminal
 
-**第四步**：将生成的Excel文件发送给用户，并在对话中展示文字总结的关键发现。
+**Step 4**: Send the generated Excel file to the user and present key findings from the text summary in the conversation.
 
-## 支持的反馈表格式
+## Supported Feedback Form Formats
 
-### 个训反馈表（1页PDF）
-- 文件名示例：`BR-EY-MRFK-LQL20260316个训每日反馈表.pdf`
-- 包含：多回合项目表格（项目名称、百分比、是否掌握）、流利度项目、负面行为、每日亮点
+### Session Feedback Form (1-page PDF)
+- Filename example: `BR-EY-MRFK-LQL20260316session_daily_feedback.pdf`
+- Contains: Multi-trial program table (program name, percentage, mastery status), fluency programs, negative behaviors, daily highlights
 
-### 融合反馈表（3页PDF）
-- 文件名示例：`BR-EY-MRFK-LQL20260316融合每日反馈表_.pdf`
-- 第1页包含个训项目（本skill提取此部分），后面是融合干预数据
+### Inclusion Feedback Form (3-page PDF)
+- Filename example: `BR-EY-MRFK-LQL20260316inclusion_daily_feedback.pdf`
+- Page 1 contains session programs (this skill extracts this part); remaining pages have inclusion data
 
-两种格式都能正确解析，脚本会自动识别。
+Both formats are correctly parsed; the script auto-detects the format.
 
-## 数据解析规则
+## Data Parsing Rules
 
-### 多回合项目
-- **百分比数据**：0%-100%，0%是有效数据
-- **"无"标记**：表示当天未做该项目，不参与均值计算
-- **掌握标准**：从表头提取（"连续三天80%"或"连续三天90%"）
-- **是否掌握**：是/否
+### Multi-Trial Programs
+- **Percentage data**: 0%-100%, where 0% is valid data
+- **"N/A" marker**: Indicates the program was not run that day, excluded from mean calculation
+- **Mastery criterion**: Extracted from header ("3 consecutive days at 80%" or "3 consecutive days at 90%")
+- **Mastery status**: Yes/No
 
-### 项目名称匹配
-同一项目跨天可能有名称变体，脚本会做标准化匹配：
-- `社交故事-分享-回答` ≈ `社交故事《分享》-回答`
-- 但 `社交游戏-木头人（完整游戏）` ≠ `社交游戏-木头人（阶段：抓的人）`（不同教学阶段）
+### Program Name Matching
+The same program may have name variants across days; the script performs standardized matching:
+- `Social Story-Sharing-Answering` matches `Social Story "Sharing"-Answering`
+- But `Social Game-Freeze Tag (Full Game)` does not match `Social Game-Freeze Tag (Phase: Tagger)` (different teaching phases)
 
-### 日期提取
-优先从文件名提取日期，回退到PDF内容中的日期字段。
+### Date Extraction
+Dates are extracted from filenames first, falling back to date fields within the PDF content.
 
-## 趋势判断标准
+## Trend Assessment Criteria
 
-| 趋势标记 | 判定规则 |
+| Trend Marker | Assessment Rule |
 |---------|--------|
-| ★ 稳定高位 | 所有数据点均≥80% |
-| ↑ 上升 | 后半段均值比前半段高15个百分点以上 |
-| ↓ 下降 | 后半段均值比前半段低15个百分点以上 |
-| ～ 波动 | 有变化但不符合上升/下降标准 |
-| ▽ 持续低位 | 所有数据点均≤20% |
-| 数据不足 | 有效数据点少于2个 |
+| Star - Stable High | All data points >= 80% |
+| Up Arrow - Rising | Second half mean is 15+ percentage points higher than first half |
+| Down Arrow - Declining | Second half mean is 15+ percentage points lower than first half |
+| Wave - Fluctuating | Changes present but doesn't meet rising/declining criteria |
+| Down Triangle - Persistent Low | All data points <= 20% |
+| Insufficient Data | Fewer than 2 valid data points |
 
-## 输出说明
+## Output Description
 
-### Excel报告（两个sheet）
+### Excel Report (Two Sheets)
 
-**Sheet 1：个训数据趋势**
-- 按领域分组（语言/认知、听理解、社交、认知/对话、精细/流利度）
-- 每行一个项目，列出各日百分比、均值、趋势、掌握状态
-- 颜色标注：绿色=≥80%，红色=≤20%
+**Sheet 1: Session Data Trends**
+- Grouped by domain (Language/Cognitive, Listening Comprehension, Social, Cognitive/Conversation, Fine Motor/Fluency)
+- One row per program, showing daily percentages, mean, trend, mastery status
+- Color coding: Green = >= 80%, Red = <= 20%
 
-**Sheet 2：文字总结**
-- 可直接复制贴进月度报告的中文总结
-- 包含：掌握项目、接近掌握项目、上升趋势、下降趋势、低位项目、数据概览
+**Sheet 2: Text Summary**
+- Ready to copy-paste into monthly reports
+- Contains: Mastered programs, near-mastery programs, rising trends, declining trends, persistent low programs, data overview
 
-## 注意事项
+## Important Notes
 
-- **务必使用脚本**：不要自行编写PDF解析逻辑，脚本中的状态机解析器已经针对反馈表格式做了充分测试
-- **项目名称变体**：如果发现脚本把同一项目识别为两个不同项目（因为命名差异），在输出时提醒用户
-- **掌握标准变化**：3/16的数据掌握标准是90%，之后改为80%，脚本会按各自标准处理
+- **Always use the script**: Do not write your own PDF parsing logic. The script's state machine parser has been thoroughly tested against the feedback form format.
+- **Program name variants**: If the script identifies the same program as two different programs (due to naming differences), alert the user in the output.
+- **Mastery criterion changes**: Some data may use 90% criterion while later data uses 80%; the script handles each according to its respective criterion.

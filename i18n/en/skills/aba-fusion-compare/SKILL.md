@@ -1,41 +1,41 @@
 ---
 name: aba-fusion-compare
-description: ABA融合数据对比与IEPmastery判定skill。当督导上传融合每日反馈表PDF和/或IEP文档时，自动提取融合干预数据（同伴介入、随班融合、集教课关注率、集体指令回应、USOPAC等），进行多日趋势分析，并与IEP目标进行mastery判定。支持周/日常模式（聚焦当前数据趋势）和月度模式（全局扫描+入园评估维度提示）。适用于：上传融合反馈表后要求分析融合数据、对比IEP目标达成情况、查看社交/集体/自理各维度进展。即使用户只是说"帮我看看融合数据"或"对比一下IEP"或"这周融合怎么样"，也应该触发此skill。注意：本skill有配套Python脚本，请务必使用脚本而非自行编写解析逻辑。
+description: ABA inclusion data comparison and IEP goal attainment skill. When the supervisor uploads inclusion daily feedback form PDFs and/or IEP documents, automatically extract inclusion intervention data (peer-mediated intervention, mainstreaming, group instruction attention rate, group instruction compliance, USOPAC, etc.), perform multi-day trend analysis, and compare against IEP goals for attainment determination. Supports weekly/daily mode (focused on current data trends) and monthly mode (global scan + kindergarten assessment dimension prompts). Applicable when uploading inclusion feedback forms for data analysis, comparing IEP goal achievement, or reviewing social/group/self-care dimension progress. Even if the user simply says "check the inclusion data" or "compare with IEP" or "how's inclusion this week," this skill should be triggered. Note: This skill has companion Python scripts - always use the scripts rather than writing your own parsing logic.
 ---
 
-# ABA融合数据对比与IEPmastery判定
+# ABA Inclusion Data Comparison and IEP Goal Attainment
 
-## 概述
+## Overview
 
-本skill从融合每日反馈表PDF中提取所有融合干预数据，进行趋势分析，并可选与IEP目标进行mastery判定。
+This skill extracts all inclusion intervention data from inclusion daily feedback form PDFs, performs trend analysis, and optionally compares with IEP goals for attainment determination.
 
-## 前置依赖
+## Prerequisites
 
 ```bash
 sudo apt-get install -y poppler-utils
 pip install openpyxl
 ```
 
-## 两种运行模式
+## Two Operating Modes
 
-### 模式A：日常/周模式（默认）
-输入：融合反馈表PDF × N天
-输出：融合数据趋势表格 + 文字总结
-聚焦当前正在干预的项目数据走向。
+### Mode A: Daily/Weekly Mode (Default)
+Input: Inclusion feedback form PDFs x N days
+Output: Inclusion data trend tables + text summary
+Focuses on current intervention program data trajectories.
 
-### 模式B：月度全局模式
-输入：融合反馈表PDF × N天 + IEP文档（可选）
-输出：趋势表格 + IEPmastery判定 + 入园评估维度全局扫描提示清单
-在月底或月度总结时使用，提供全面的维度检查。
+### Mode B: Monthly Global Mode
+Input: Inclusion feedback form PDFs x N days + IEP document (optional)
+Output: Trend tables + IEP attainment assessment + kindergarten assessment dimension global scan checklist
+Use at month-end or for monthly summaries; provides comprehensive dimension review.
 
-用法：
+Usage:
 ```bash
-# 模式A（日常）
+# Mode A (daily)
 python3 <skill_dir>/scripts/fusion_analyze.py \
   --files fusion1.pdf fusion2.pdf ... \
   --output report.xlsx
 
-# 模式B（月度全局 + IEP对比）
+# Mode B (monthly global + IEP comparison)
 python3 <skill_dir>/scripts/fusion_analyze.py \
   --files fusion1.pdf fusion2.pdf ... \
   --iep iep_document.docx \
@@ -43,85 +43,85 @@ python3 <skill_dir>/scripts/fusion_analyze.py \
   --output report.xlsx
 ```
 
-## 从融合反馈表提取的数据维度
+## Data Dimensions Extracted from Inclusion Feedback Forms
 
-### 第1页数据（与个训skill共享）
-- **个训项目**：多回合项目（项目名称、百分比、是否掌握）
-- **流利度项目**：如捏夹子等（具体项目因学生而异）
+### Page 1 Data (Shared with session data skill)
+- **Session programs**: Multi-trial programs (program name, percentage, mastery status)
+- **Fluency programs**: e.g., clothespin squeezing (specific programs vary by student)
 
-### 第1页末尾 - 融合干预数据
-**同伴介入项目**：
-- 游戏发起：独立次数、辅助次数、百分比
-- 游戏回应：独立次数、辅助次数、百分比
-- 具体同伴介入游戏项目（因学生而异，如模仿类游戏、规则类游戏等）：独立次数、辅助次数、百分比
+### Page 1 End - Inclusion Intervention Data
+**Peer-Mediated Intervention Programs**:
+- Game initiation: Independent count, prompted count, percentage
+- Game response: Independent count, prompted count, percentage
+- Specific peer intervention game programs (vary by student, e.g., imitation games, rule-based games): Independent count, prompted count, percentage
 
-注意：同伴介入的具体游戏项目因学生干预计划而异，脚本按行提取所有同伴介入区域内的数据，不依赖固定项目名称。
+Note: Specific peer intervention game programs vary by student's intervention plan. The script extracts all data within the peer intervention section by row position, not by fixed program names.
 
-### 第2页数据
-**随班融合**（7个子项）：
-- 室内活动prompt hierarchy（全辅助/部分辅助/少量辅助/独立）
-- 户外活动prompt hierarchy
-- 集教干预时间关注率：总时长、关注时长、百分比
-- 集教课-拆分单独指令：总次数、回应次数、百分比
-- 转衔-户外跟随走：总次数、回应次数、百分比
-- 回应班级集体指令：总次数、回应次数、百分比
-- 向班级老师或同伴提要求：总次数、独立次数、百分比
+### Page 2 Data
+**Mainstreaming** (7 sub-items):
+- Indoor activity prompt level (full physical / partial physical / minimal / independent)
+- Outdoor activity prompt level
+- Group instruction attention rate: total duration, attention duration, percentage
+- Group instruction - individual instruction compliance: total attempts, responses, percentage
+- Transition - outdoor following: total attempts, responses, percentage
+- Group instruction compliance: total attempts, responses, percentage
+- Requesting from teacher or peers: total attempts, independent attempts, percentage
 
-**USOPAC社交观察**：
-- 个案行：U独自空闲、S独自游戏、O观察者、P平行游戏、A联合游戏、C合作游戏、独立发起、独立回应
-- 同伴行：同上（用于对比）
-- 注意：USOPAC不是每天都记录，通常每周记录一次，具体时间因班级安排而异
+**USOPAC Social Observation**:
+- Target child row: U(Unoccupied), S(Solitary), O(Onlooker), P(Parallel), A(Associative), C(Cooperative), Independent initiation, Independent response
+- Peer row: Same categories (for comparison)
+- Note: USOPAC is not recorded daily; typically once per week, timing varies by classroom schedule
 
-**自理能力**：
-- 睡眠：上床时间、入睡时间、起床时间
-- 进食：各餐描述
-- 如厕：记录
+**Self-Care Skills**:
+- Sleep: Bedtime, fall-asleep time, wake time
+- Eating: Description per meal
+- Toileting: Records
 
-**行为记录**：前因、老师策略、功能、持续时间、发生次数
+**Behavior Records**: Antecedent, teacher strategy, function, duration, frequency
 
-**每日亮点 + 每日小结**：文字内容（月度模式下用于推断入园评估维度）
+**Daily Highlights + Daily Summary**: Text content (used in monthly mode to infer kindergarten assessment dimensions)
 
-## IEPmastery判定逻辑
+## IEP Goal Attainment Logic
 
-当提供IEP文档时，脚本会：
-1. 从IEP文档中提取所有短期目标及其预期标准
-2. 将当前融合数据与每个目标进行比对
-3. 输出mastery状态：已mastery / 接近mastery / 未mastery / 数据不足
+When an IEP document is provided, the script will:
+1. Extract all short-term goals and their expected criteria from the IEP
+2. Compare current inclusion data against each goal
+3. Output attainment status: Met / Approaching / Not Met / Insufficient Data
 
-IEP目标通常涉及的融合维度：
-- 社交领域：同伴发起百分比、同伴回应百分比、USOPAC游戏类型、向老师提要求正确率、认识同学数量、社交游戏种类数、自我休闲时间
-- 集体领域：集教课关注率、拆分单独指令回应率、集体指令回应率、户外活动prompt hierarchy
-- 自理领域：穿衣、洗手、进食等独立完成情况
+IEP goals typically involve these inclusion dimensions:
+- Social domain: Peer initiation %, peer response %, USOPAC play types, requesting from teacher accuracy, number of recognized classmates, variety of social games, independent leisure time
+- Group domain: Group instruction attention rate, individual instruction compliance rate, group instruction compliance rate, outdoor activity prompt level
+- Self-care domain: Dressing, handwashing, eating independence
 
-## 月度全局扫描提示清单
+## Monthly Global Scan Checklist
 
-月度模式下额外输出，基于入园评估表的55个维度：
+Output additionally in monthly mode, based on 55 dimensions from the kindergarten assessment form:
 
-### 第一部分：IEP目标mastery状态
-每个IEP目标的当前数据、mastery判定、趋势方向。
+### Part 1: IEP Goal Attainment Status
+Current data, attainment determination, and trend direction for each IEP goal.
 
-### 第二部分：技能推进提示
-对已mastery的技能，提示可能的下一步：
-- 示例："独立回应同伴已稳定mastery(80%)→ 建议观察'回应他人邀请'是否可调整prompt hierarchy"
-- 示例："集教课拆分单独指令已超标(75%)→ 下一阶段可关注'回应集体课堂指令'"
+### Part 2: Skill Advancement Prompts
+For mastered skills, suggest possible next steps:
+- Example: "Independent peer response stable at 80% -> Consider adjusting prompt level for 'responding to peer invitations'"
+- Example: "Individual instruction compliance exceeds target at 75% -> Next phase: focus on 'responding to group classroom instructions'"
 
-### 第三部分：需关注维度
-从入园评估维度中筛出：反馈表数据显示可能有变化或需要注意的项目。
+### Part 3: Dimensions Requiring Attention
+Filter from kindergarten assessment dimensions: items where feedback data suggests changes or need attention.
 
-### 第四部分：督导观察提示
-列出反馈表无法自动提取的18个入园评估维度，提醒督导在本月观察中关注。
+### Part 4: Supervisor Observation Prompts
+List the 18 kindergarten assessment dimensions that cannot be automatically extracted from feedback forms, reminding the supervisor to observe during this month.
 
-详细的入园评估维度映射见 `references/assessment_mapping.md`。
+See `references/assessment_mapping.md` for detailed kindergarten assessment dimension mapping.
 
-## 技术注意事项
+## Technical Notes
 
-- 融合反馈表PDF为3页，结构比个训反馈表复杂得多
-- pdftotext提取后，表格列会被拆散成不连续的行
-- 脚本使用针对每个区域的专门解析器，而非通用状态机
-- 同伴介入数据中"无"表示当天未进行该项同伴介入活动（非0次）
-- 同伴介入的具体游戏项目因学生而异，脚本按位置提取而非按项目名硬匹配
-- USOPAC数据不是每天都记录，记录频率因班级安排而异，未记录的天数据为"无"
-- 集教课关注率的时长格式为"X分Y秒"，需要转换为秒再计算百分比
-- 有些天可能没有集教课（如户外活动日），此时关注率为空是正常的
-- IEP文档格式为docx，使用pandoc转markdown后解析
-- IEP格式因BCBA而异，解析逻辑使用语义匹配而非硬编码格式
+- Inclusion feedback form PDFs are 3 pages, far more complex than session feedback forms
+- After pdftotext extraction, table columns are split into non-contiguous lines
+- The script uses specialized parsers for each section, not a generic state machine
+- "N/A" in peer intervention data means the activity was not conducted that day (not 0 times)
+- Specific peer intervention game programs vary by student; the script extracts by position rather than hard-coded name matching
+- USOPAC data is not recorded daily; recording frequency varies by classroom schedule; unrecorded days show "N/A"
+- Group instruction attention duration format is "Xmin Ysec" and needs conversion to seconds for percentage calculation
+- Some days may not have group instruction (e.g., outdoor activity days); empty attention rate is normal
+- IEP documents are in docx format; pandoc converts to markdown before parsing
+- IEP formats vary by BCBA; parsing logic uses semantic matching rather than hard-coded format

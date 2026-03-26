@@ -11,6 +11,7 @@ Usage:
 """
 
 import argparse
+import os
 import shutil
 import sys
 from pathlib import Path
@@ -106,11 +107,16 @@ def main():
         description="Set up ABA Clinical Agent for a specific language.",
         epilog="Example: python scripts/setup.py --lang en",
     )
+    # Support ABA_LANG environment variable (used by Codespaces devcontainer)
+    env_lang = os.environ.get("ABA_LANG", DEFAULT_LANGUAGE)
+    if env_lang not in SUPPORTED_LANGUAGES:
+        env_lang = DEFAULT_LANGUAGE
+
     parser.add_argument(
         "--lang",
         choices=sorted(SUPPORTED_LANGUAGES),
-        default=DEFAULT_LANGUAGE,
-        help=f"Language to set up (default: {DEFAULT_LANGUAGE})",
+        default=env_lang,
+        help=f"Language to set up (default: {env_lang}, or set ABA_LANG env var)",
     )
     parser.add_argument(
         "--force-vault",

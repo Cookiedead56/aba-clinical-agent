@@ -5,6 +5,7 @@
 **29 Claude Code Skills** covering the entire workflow from intake to discharge, giving every BCBA a digital supervision assistant that never clocks out.
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/open-behavior-analysis/aba-clinical-agent)
 
 [中文版 README](README.zh-CN.md)
 
@@ -225,14 +226,15 @@ The setup script copies the selected language's skills, vault template, CLAUDE.m
 
 ---
 
-## Hosted Service (Coming Soon)
+## Try It Now — Zero Install
 
-Deployment too complex? We're building a **one-click hosted service** — a cloud environment pre-configured with Claude Code + Obsidian CLI + all Skills, ready to use on login.
+Don't want to install anything? Open the project directly in your browser with GitHub Codespaces:
 
-- **Personal plan**: For independent BCBAs
-- **Agency plan**: Multi-seat + custom skill development
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/open-behavior-analysis/aba-clinical-agent)
 
-Follow progress: [GitHub Discussions](../../discussions)
+Everything is pre-configured: Claude Code, Python, data analysis tools. Just set your [Anthropic API key](https://console.anthropic.com/) as a Codespace secret and start working.
+
+See [Hosted Quick Start Guide](docs/hosted-quickstart.md) for step-by-step instructions.
 
 ---
 

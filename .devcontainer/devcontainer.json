@@ -1,0 +1,29 @@
+{
+  "name": "ABA Clinical Agent",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    }
+  },
+  "containerEnv": {
+    "ABA_LANG": "${localEnv:ABA_LANG:en}"
+  },
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "foam.foam-vscode",
+        "yzhang.markdown-all-in-one"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    },
+    "codespaces": {
+      "openFiles": [
+        "README.md"
+      ]
+    }
+  }
+}

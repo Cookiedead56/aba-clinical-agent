@@ -6,7 +6,7 @@ tags: [MOC, 知识库, 索引]
 aliases: [知识库索引, Knowledge Base]
 ---
 
-# 知识库索引 (Knowledge Base MOC)
+# Knowledge Base Index (Knowledge Base MOC)
 
 > [!NOTE]
 > 本文件是 `08-Knowledge/` 的全局索引。Skills 在执行时通过此索引或 frontmatter 标签检索相关知识。
@@ -31,8 +31,8 @@ aliases: [知识库索引, Knowledge Base]
 
 ⏳ 待导入，如：[[VB-MAPP]]、[[ABLLS-R]]、[[PEAK]]
 
-### 行为管理 (Behavior Management)
-> domain: 行为管理
+### Behavior Management (Behavior Management)
+> domain: Behavior Management
 
 ⏳ 待导入概念卡片，如：[[functional analysis]]、[[competing behavior model]]、[[功能性沟通训练]]、[[区别reinforcement]]
 
@@ -59,9 +59,9 @@ aliases: [知识库索引, Knowledge Base]
 
 ---
 
-## 教材 (Textbooks & References)
+## Textbooks (Textbooks & References)
 
-⏳ 待导入教材章节摘录
+⏳ 待导入Textbooks章节摘录
 
 ---
 
@@ -71,12 +71,12 @@ aliases: [知识库索引, Knowledge Base]
 
 ---
 
-## 知识库使用指南
+## Knowledge Base使用指南
 
 ### 文件命名规范
 - 概念卡片：`概念名称.md`（如 `reinforcement.md`、`DTT 回合式教学.md`）
 - 教案参考：`[教学目标] - [描述].md`（如 `提要求训练 - 经典教案.md`）
-- 教材摘录：`[书名] - [章节].md`（如 `Cooper行为分析 - 第9章reinforcement.md`）
+- Textbooks摘录：`[书名] - [章节].md`（如 `Cooper行为分析 - 第9章reinforcement.md`）
 - meeting-notes：`YYYY-MM-DD - [主题].md`（如 `2026-03-10 - 团队培训会.md`）
 
 ### Frontmatter 标准
@@ -84,7 +84,7 @@ aliases: [知识库索引, Knowledge Base]
 ```yaml
 ---
 type: 概念卡片
-domain: [行为原理]           # 行为原理 | 教学技术 | 评估工具 | 行为管理 | 沟通策略
+domain: [行为原理]           # 行为原理 | 教学技术 | 评估工具 | Behavior Management | 沟通策略
 tags: [reinforcement, 正reinforcement, ABA基础]
 related: [[消退]], [[prompt hierarchy]]
 difficulty: L2               # L1-L5 对应胜任力等级
@@ -102,10 +102,10 @@ proven: true
 ---
 ```
 
-教材摘录：
+Textbooks摘录：
 ```yaml
 ---
-type: 教材
+type: Textbooks
 source: 书名/作者
 chapter: 章节号
 domain: [行为原理]

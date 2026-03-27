@@ -10,7 +10,7 @@ tags: [脱敏, 存档]
 > [!important] 脱敏说明
 > 本文件为示范用途。在真实使用场景中，此目录存放经 `privacy-filter` 技能处理后的脱敏数据。
 > - 所有真实姓名已替换为系统代号
-> - Identity Mapping Table存放在 `*Identity Mapping Table-绝密*` 文件中（已被 .gitignore 排除）
+> - Identity Mapping Table存放在 `*Identity Mapping Table-绝密*` 文件Medium (已被 .gitignore 排除）
 > - 原始 PDF/XLSX 文件不纳入版本控制
 
 ---
@@ -19,7 +19,7 @@ tags: [脱敏, 存档]
 
 | 处理日期 | 原始文件 | 脱敏操作 | 处理人 |
 |:---|:---|:---|:---|
-| 2026-01-10 | 初访信息采集表.pdf | 姓名→Client-Demo-Alex，家长姓名→"妈妈/爸爸"，联系方式→[已脱敏]，机构名→XX市儿童医院 | privacy-filter |
+| 2026-01-10 | 初访信息采集表.pdf | 姓名→Client-Demo-Alex，家长姓名→"Mother/Father"，联系方式→[已脱敏]，机构名→XX市儿童医院 | privacy-filter |
 | 2026-01-12 | VB-MAPP评分表.xlsx | 评估者真名→Ms. Zhang，儿童真名→Client-Demo-Alex | privacy-filter |
 
 ---
@@ -29,7 +29,7 @@ tags: [脱敏, 存档]
 ```
 # 以下为示范，真实项目中此映射存储在绝密对照表中
 儿童真名 → Client-Demo-Alex
-家长姓名 → 妈妈 / 爸爸
+家长姓名 → Mother / Father
 教师真名 → Ms. Zhang
 机构真名 → XX市儿童医院 / A机构 / B机构
 联系方式 → [已脱敏]
@@ -38,7 +38,7 @@ tags: [脱敏, 存档]
 
 ---
 
-## 🔗 关联文件
+## 🔗 Related Files
 
 - [[Client-Demo-Alex - Intake Form]]
 - [[Client-Demo-Alex - Master Profile]]

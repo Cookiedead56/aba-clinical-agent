@@ -14,7 +14,7 @@ aliases: [全局索引, 系统地图]
 
 ---
 
-## 个案管理 (01-Clients)
+## Case Management (01-Clients)
 
 ### Client-Demo-Alex (示范个案)
 - [[Client-Demo-Alex - Master Profile]]
@@ -70,12 +70,12 @@ aliases: [全局索引, 系统地图]
 
 ---
 
-## 课程开发 (07-Curriculum)
+## Curriculum Development (07-Curriculum)
 > 待 `curriculum-builder` 首次执行后自动填充
 
 ---
 
-## 知识库 (08-Knowledge)
+## Knowledge Base (08-Knowledge)
 - [[_知识库索引]]
 
 ### concepts
@@ -84,7 +84,7 @@ aliases: [全局索引, 系统地图]
 ### lesson-plans
 > 导入后在此追加wikilink
 
-### 教材
+### Textbooks
 > 导入后在此追加wikilink
 
 ### meeting-notes

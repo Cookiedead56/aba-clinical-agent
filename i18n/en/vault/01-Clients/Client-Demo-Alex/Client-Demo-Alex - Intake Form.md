@@ -2,145 +2,145 @@
 type: Intake Form
 created: 2026-01-10
 client: Client-Demo-Alex
-tags: [初访]
+tags: [intake]
 ---
 
 # [[Client-Demo-Alex - Intake Form]]
 
-**初访日期**：2026-01-10
-**信息采集人**：Ms. Zhang
-**信息来源**：妈妈（主要养育者）
+**Intake Date**：2026-01-10
+**Interviewer**：Ms. Zhang
+**Information Source**：Mother (primary caregiver)
 
 ---
 
-## 一、基本信息
+## 1. Basic Information
 
-| 项目 | 内容 |
+| Item | Content |
 |:---|:---|
-| **儿童代号** | Client-Demo-Alex |
-| **性别** | 男 |
-| **出生日期** | 2021-11-15 |
-| **初访时年龄** | 4岁2个月 |
-| **诊断** | ASD Level 2 + 语言发育迟缓 |
-| **确诊日期** | 2023-12-20 |
-| **确诊机构** | XX市儿童医院发育行为科 |
-| **当前用药** | 无 |
-| **主要联系人** | 妈妈（手机：[已脱敏]） |
-| **入档日期** | 2026-01-10 |
+| **Child Code** | Client-Demo-Alex |
+| **Gender** | Male |
+| **Date of Birth** | 2021-11-15 |
+| **初访时年龄** | 4 years 2 months |
+| **Diagnosis** | ASD Level 2 + Speech-Language Delay |
+| **Diagnosis Date** | 2023-12-20 |
+| **Diagnosing Facility** | XX市儿童医院发育行为科 |
+| **Current Medications** | None |
+| **主要联系人** | Mother (phone: [de-identified]) |
+| **Intake Date** | 2026-01-10 |
 
 ---
 
-## 二、发育史
+## 2. Developmental History
 
-### 1. 早期发育里程碑
+### 1. Early Developmental Milestones
 
-| 里程碑 | 实际月龄 | 典型月龄 | 备注 |
+| Milestone | Actual Age | Typical Age | Notes |
 |:---|:---|:---|:---|
-| 独坐 | 7个月 | 6个月 | 略迟 |
-| 独走 | 14个月 | 12个月 | 略迟 |
-| 首个有意义词汇 | 22个月 | 12个月 | 显著延迟 |
-| 两词句组合 | 至今未稳定出现 | 24个月 | 严重延迟 |
-| 指向性手势 | 20个月 | 9-12个月 | 延迟 |
+| Independent sitting | 7 months | 6 months | Slightly delayed |
+| Independent walking | 14 months | 12 months | Slightly delayed |
+| First meaningful word | 22 months | 12 months | Significantly delayed |
+| Two-word combinations | Not yet consistently present | 24 months | Severely delayed |
+| Pointing gestures | 20 months | 9-12 months | Delayed |
 
-### 2. 诊断历程
-- **2023-06**：妈妈因"不理人、不说话"首次就诊，建议观察
-- **2023-12**：在XX市儿童医院完成ADOS-2评估，确诊ASD Level 2，同时诊断语言发育迟缓
-- **2024-01 至 2025-12**：在某机构接受感统训练+个训（每周3次），妈妈反映"进步不明显"
-- **2026-01**：转介至本机构，寻求ABA密集干预
+### 2. Diagnostic History
+- **2023-06**：MotherFirst visit due to "not responding to people, not talking," observation recommended
+- **2023-12**：在XX市儿童医院完成ADOS-2评估，确诊ASD Level 2，同时诊断Speech-Language Delay
+- **2024-01 至 2025-12**：在某机构接受感统训练+个训（每周3次），Mother反映"Limited progress"
+- **2026-01**：Referred to this agency seeking intensive ABA intervention
 
-### 3. 既往干预史
+### 3. Intervention History
 
-| 时间段 | 机构/形式 | 频率 | 效果评价 |
+| Period | Provider/Type | Frequency | Outcome |
 |:---|:---|:---|:---|
-| 2024.01-2025.06 | A机构（感统+个训） | 3次/周 | 大运动改善，语言无明显进步 |
-| 2025.07-2025.12 | B机构（言语治疗） | 2次/周 | 仿说能力有所提升，自发语言仍少 |
+| 2024.01-2025.06 | A机构（感统+个训） | 3次/周 | 大运动改善，语言None明显进步 |
+| 2025.07-2025.12 | B机构（言语治疗） | 2次/周 | Echoic ability improved, spontaneous language still limited |
 
 ---
 
-## 三、家庭信息
+## 3. Family Information
 
-### 1. 家庭结构
-- **妈妈**：全职照顾Alex，积极配合干预，愿意学习家庭generalization技术
-- **爸爸**：工作繁忙，参与度低，对ABA了解有限，态度为"交给专业人员"
-- **祖父母**：偶尔帮忙带娃，溺爱倾向，常在Alex哭闹时立即满足需求
+### 1. Family Structure
+- **Mother**：Full-time caregiver for Alex, actively cooperates with intervention, willing to learn home generalization techniques
+- **Father**：Busy with work, low involvement, limited ABA knowledge, attitude of "leave it to professionals"
+- **Grandparents**：Occasionally helps with childcare, tendency to indulge, often immediately satisfies demands when Alex cries
 
-### 2. 家庭generalization资源评估
-- **总体评级**：中等
-- **优势**：妈妈学习意愿强，家中有独立训练空间，经济条件可支撑密集干预
-- **挑战**：爸爸参与不足，祖父母的即时满足模式可能削弱延迟reinforcement的效果
+### 2. Family Generalization Resource Assessment
+- **Overall Rating**：Moderate
+- **Strengths**：Mother has strong learning motivation, home has dedicated training space, financial conditions can support intensive intervention
+- **Challenges**：Father参与不足，Grandparents的即时满足模式可能削弱Delayedreinforcement的效果
 
-### 3. 家长期望（妈妈原话摘录）
+### 3. Parent Expectations (Mother's Own Words)
 > "我最希望他能和小朋友一起玩，哪怕只是待在旁边也行。"
 > "幼儿园老师说他完全不听集体指令，我很担心他上不了小学。"
 > "他什么都要靠拉我的手来表达，我希望他能说出来。"
 
 ---
 
-## 四、Top 3 痛点（家长视角 + 临床确认）
+## 4. Top 3 Pain Points (Parent + Clinical)
 
-| 优先级 | 痛点 | 家长描述 | 临床初判 |
+| Priority | Pain Point | Parent Description | Clinical Assessment |
 |:---|:---|:---|:---|
-| 1 | **社交发起困难** | "从来不主动找小朋友，别人靠近他就跑开" | 社交互动技能缺乏 + 可能存在逃避功能 |
-| 2 | **集体指令回应差** | "老师叫全班坐下他完全没反应" | 听者反应弱、联合注意力不足 |
-| 3 | **语言表达单一** | "只会说单个词，要什么东西就拉我的手" | Mand以单词+手势引导为主，需拓展句式长度 |
+| 1 | **Difficulty initiating social interactions** | "Never initiates with peers, runs away when others approach" | Social Interaction技能缺乏 + 可能存在Escape功能 |
+| 2 | **Poor group instruction compliance** | "No response when teacher tells the whole class to sit down" | Weak listener responding, insufficient joint attention |
+| 3 | **Language Expression单一** | "Can only say single words, pulls my hand when he wants something" | Mand primarily single-word + gesture-guided, needs sentence length expansion |
 
 ---
 
-## 五、基线行为观察（初访当日 + 前两次到访观察）
+## 5. Baseline Behavioral Observation
 
-### 1. 语言与沟通
+### 1. Language & Communication
 
-| 观察维度 | 基线表现 | 备注 |
+| Observation | Baseline | Notes |
 |:---|:---|:---|
-| **Mand（提要求）** | 以单词为主（"要""车""泡泡"），偶尔拉手引导 | 自发Mand频率约3-5次/小时 |
-| **Tact（命名）** | 能命名约15-20个常见物品，但仅在辅助下才产出 | 自发Tact极少 |
-| **仿说（Echoic）** | 能力尚可，单词仿说准确率约70%，两词短语仿说约40% | 是教学的有力切入点 |
-| **Listener（听者反应）** | 熟悉的一步指令（"过来""坐下"）约50%回应，新指令极低 | 集体指令几乎无回应 |
-| **对视** | 短暂、被动，仅在高动机时出现（如想要物品），持续约1-2秒 | 需系统塑形 |
+| **Mand（提要求）** | 以单词为主（"要""车""Bubbles"），偶尔拉手引导 | Spontaneous mand frequency approximately 3-5 per hour |
+| **Tact（命名）** | Can name approximately 15-20 common objects, but only with prompts | Very few spontaneous tacts |
+| **仿说（Echoic）** | Adequate ability, single-word echoic accuracy approximately 70%, two-word phrase approximately 40% | A strong instructional entry point |
+| **Listener（听者反应）** | Familiar one-step instructions ("come here" "sit down") approximately 50% compliance, very low for novel instructions | 集体指令几乎None回应 |
+| **对视** | Brief, passive, appears only during high motivation (e.g., wanting items), lasting approximately 1-2 seconds | Needs systematic shaping |
 
-### 2. 社交与游戏
+### 2. Social & Play
 
-| 观察维度 | 基线表现 |
+| Observation | Baseline |
 |:---|:---|
-| **同伴互动** | 平行游戏为主，无发起、无回应，同伴靠近时有时会移开 |
-| **游戏水平** | 功能性游戏（推车、搭积木），无假想游戏 |
-| **共享式注意力** | 极少主动展示或分享，偶尔在妈妈辅助下指向 |
+| **同伴互动** | 平行游戏为主，None发起、None回应，同伴靠近时有时会移开 |
+| **游戏水平** | 功能性游戏（推车、搭积木），None假想游戏 |
+| **共享式注意力** | 极少主动展示或分享，偶尔在Mother辅助下指向 |
 
-### 3. 问题行为初筛
+### 3. Problem Behavior Screening
 
-| 行为 | 频率 | 初判功能 |
+| Behavior | Frequency | Hypothesized Function |
 |:---|:---|:---|
-| 社交回避（跑开） | 高频：集体活动时几乎每次 | 逃避社交互动的高难度要求 |
-| 集体活动中发出尖声 | 中频：每次集体活动约2-3次 | 疑似注意力获取或自我刺激 |
-| 任务逃避（推开材料） | 中频：非偏好活动中 | 逃避非偏好任务 |
+| 社交回避（跑开） | High frequency: almost every group activity | EscapeSocial Interaction的High难度要求 |
+| Vocalization During Group Activities | Medium frequency: approximately 2-3 times per group activity | 疑似Attention seeking或自我刺激 |
+| Task Avoidance (Pushing Materials Away) | Medium frequency: during non-preferred activities | Escape非偏好任务 |
 
 ---
 
-## 六、reinforcer初筛
+## 6. Initial Reinforcer Screening
 
-### 观察法 + 妈妈报告
+### Observation + Mother's Report
 
-| 等级 | reinforcer | 接近行为 | 持续时间 | 备注 |
+| Tier | Reinforcer | Approach Behavior | Duration | Notes |
 |:---|:---|:---|:---|:---|
-| 杀手锏 | 汽车玩具（尤其小赛车） | 立即抓取、反复旋转车轮 | >5分钟 | 动机最强 |
-| 杀手锏 | 泡泡 | 追逐、注视、尝试戳破 | 3-4分钟 | 可用于社交诱发 |
-| 储备 | 音乐歌曲（《Alex星》等） | 身体摇晃、微笑 | 2-3分钟 | 可用作活动间reinforcement |
-| 储备 | 跳跳球 | 追逐、拍打 | 2分钟 | 可用于大运动环节 |
-| 待测试 | 贴纸 | 未观察到明显偏好 | — | 需正式MSWO评估 |
+| Top Tier | Toy cars (especially small race cars) | Immediately grabs, repeatedly spins wheels | >5分钟 | Strongest motivation |
+| Top Tier | Bubbles | Chases, watches, tries to pop | 3-4分钟 | Can be used for social elicitation |
+| Reserve | Music/songs ("Twinkle Star" etc.) | Body rocking, smiling | 2-3分钟 | Can be used as between-activity reinforcement |
+| Reserve | Bouncing ball | Chases, pats | 2分钟 | Can be used for gross motor activities |
+| To Test | Stickers | No clear preference observed | — | Needs formal MSWO assessment |
 
-> [!note] 建议
+> [!note] Recommendation
 > 入组后第一周内完成正式MSWOreinforcer偏好评估，见 [[Client-Demo-Alex - Reinforcer Assessment]]
 
 ---
 
-## 七、已确认干预目标方向（4个维度）
+## 7. Confirmed Intervention Target Areas (4 Dimensions)
 
 基于初访信息采集、家长期望及临床观察，初步确认以下4个核心干预维度：
 
-1. **社交互动**：从平行游戏过渡到协作性互动，建立同伴社交发起
-2. **集体参与**：建立对集体指令的首次回应，提升联合注意力
-3. **语言表达**：从单词句扩展到两词句Mand，增加自发Tact频率
-4. **行为管理**：针对社交回避行为进行FBA，建立功能性替代行为
+1. **Social Interaction**：Transition from parallel play to collaborative interaction, establish peer social initiation
+2. **Group Participation**：Establish first-response to group instructions, improve joint attention
+3. **Language Expression**：Expand from single-word to two-word mands, increase spontaneous tact frequency
+4. **Behavior Management**：Conduct FBA for social avoidance behavior, establish functional replacement behaviors
 
 > [!tip] 下一步
 > 1. 完成VB-MAPPMilestones Assessment → [[Client-Demo-Alex - Skill Assessment]]
@@ -150,7 +150,7 @@ tags: [初访]
 
 ---
 
-## 🔗 关联文件
+## 🔗 Related Files
 
 - [[Client-Demo-Alex - Master Profile]]
 - [[Client-Demo-Alex - Skill Assessment]]

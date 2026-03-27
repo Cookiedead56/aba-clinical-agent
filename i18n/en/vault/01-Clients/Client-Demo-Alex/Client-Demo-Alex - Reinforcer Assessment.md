@@ -8,7 +8,7 @@ tags: [reinforcer, MSWO]
 
 # [[Client-Demo-Alex - Reinforcer Assessment]]
 
-**评估日期**：2026-01-18（首次正式MSWO）
+**Assessment Date**：2026-01-18（首次正式MSWO）
 **最近更新**：2026-02-15（月度复评）
 **评估人**：Ms. Zhang（督导审核）
 **情报源**：[[Client-Demo-Alex - Intake Form]] | [[Client-Demo-Alex - Master Profile]]
@@ -27,7 +27,7 @@ tags: [reinforcer, MSWO]
 5. 重复直到所有物品被选择或Alex不再做出选择
 6. 连续进行3轮，计算每个物品的平均选择排序
 
-**评估环境**：个训室，1:1安静环境，无其他干扰
+**评估环境**：个训室，1:1安静环境，None其他干扰
 
 ---
 
@@ -37,22 +37,22 @@ tags: [reinforcer, MSWO]
 
 | 排名 | reinforcer | 选择频率（3轮） | 平均选择排序 | 接触时长 | 分类 |
 |:---|:---|:---|:---|:---|:---|
-| 1 | 汽车玩具（小赛车） | 3/3 首选 | 1.0 | >5分钟（不愿归还） | 高偏好 |
-| 2 | 泡泡 | 2/3 第二选 | 1.7 | 3-4分钟 | 高偏好 |
+| 1 | Toy cars (small race cars) | 3/3 首选 | 1.0 | >5分钟（不愿归还） | High偏好 |
+| 2 | Bubbles | 2/3 第二选 | 1.7 | 3-4分钟 | High偏好 |
 | 3 | 音乐（《Alex星》播放器） | 3/3 第三选 | 3.0 | 2-3分钟 | 中偏好 |
-| 4 | 跳跳球 | 2/3 第四选 | 3.7 | 1-2分钟 | 中偏好 |
-| 5 | 贴纸（动物贴纸） | 1/3 被选 | 5.3 | <30秒 | 低偏好 |
-| 6 | 积木（彩色积木） | 1/3 被选 | 5.7 | 1分钟 | 低偏好 |
-| 7 | 橡皮泥 | 0/3 | 未选择 | — | 无偏好 |
+| 4 | Bouncing ball | 2/3 第四选 | 3.7 | 1-2分钟 | 中偏好 |
+| 5 | Stickers（动物Stickers） | 1/3 被选 | 5.3 | <30秒 | Low偏好 |
+| 6 | 积木（彩色积木） | 1/3 被选 | 5.7 | 1分钟 | Low偏好 |
+| 7 | 橡皮泥 | 0/3 | 未选择 | — | None偏好 |
 
 ### 社会性Reinforcer Assessment
 
 | 类型 | 反应 | 效力评估 |
 |:---|:---|:---|
-| 口头赞美（"太棒了！"） | 短暂看向说话者，无明显情绪反应 | 低（单独使用效力不足） |
-| 击掌 | 在辅助下完成，偶尔微笑 | 中（需与物质reinforcer配对使用） |
-| 挠痒痒 | 笑声+身体靠近 | 中高（仅限熟悉成人） |
-| 拥抱 | 被动接受，不主动寻求 | 低 |
+| 口头赞美（"太棒了！"） | 短暂看向说话者，None明显情绪反应 | Low（单独使用效力不足） |
+| 击掌 | 在辅助下完成，偶尔微笑 | Medium (需与物质reinforcer配对使用） |
+| 挠痒痒 | 笑声+身体靠近 | 中High（仅限熟悉成人） |
+| 拥抱 | 被动接受，不主动寻求 | Low |
 
 ---
 
@@ -60,32 +60,32 @@ tags: [reinforcer, MSWO]
 
 ### 偏好变化追踪
 
-| reinforcer | 1月排名 | 2月排名 | 变化 | 备注 |
+| reinforcer | 1月排名 | 2月排名 | 变化 | Notes |
 |:---|:---|:---|:---|:---|
 | 汽车玩具 | 1 | 1 | → | 效力稳定，但连续使用>15分钟后出现饱和迹象（开始旋转车轮而非功能性玩） |
-| 泡泡 | 2 | 2 | → | 效力稳定，不易饱和，已成功用作社交互动载体 |
+| Bubbles | 2 | 2 | → | 效力稳定，Low satiation risk，已成功用作Social Interaction载体 |
 | 音乐 | 3 | 3 | → | 效力稳定，适合活动间过渡 |
-| 跳跳球 | 4 | 4 | → | 效力稳定 |
-| 贴纸 | 5 | 5 | → | 仍为低偏好，暂不适合代币系统 |
+| Bouncing ball | 4 | 4 | → | 效力稳定 |
+| Stickers | 5 | 5 | → | 仍为Low偏好，暂不适合代币系统 |
 | 积木 | 6 | — | ↓ | 兴趣进一步下降，移出候选列表 |
-| 小饼干（新增） | — | 3 | 新增 | 上课期间妈妈带来，观察到强烈接近行为，正式纳入评估 |
+| 小饼干（新增） | — | 3 | 新增 | 上课期间Mother带来，观察到强烈接近行为，正式纳入评估 |
 
 ### 更新后的效力分级
 
 | 等级 | reinforcer | 效力评分 | 饱和度预警 | 最佳使用场景 |
 |:---|:---|:---|:---|:---|
-| 杀手锏 | 汽车玩具（小赛车） | 9/10 | 中（连续使用>15分钟后减弱） | DTT高难度试次、新技能塑形 |
-| 杀手锏 | 泡泡 | 9/10 | 低（不易饱和） | 社交互动诱发、NET自然情境 |
-| 储备 | 音乐歌曲（《Alex星》等） | 7/10 | 低 | 活动间过渡、情绪调节 |
-| 储备 | 小饼干 | 7/10 | 高（每次仅给1小块） | 仿说训练连续试次、快速reinforcement |
-| 储备 | 跳跳球 | 6/10 | 中 | 大运动环节、课间休息 |
-| 待测试 | 贴纸 | 待评估 | — | 代币系统候选（待建立配对价值） |
+| Top Tier | Toy cars (small race cars) | 9/10 | Medium (Weakens after >15 min continuous use） | DTT high-demand trials, new skill shaping |
+| Top Tier | Bubbles | 9/10 | Low（Low satiation risk） | Social Interaction诱发、NET自然情境 |
+| Reserve | Music/songs ("Twinkle Star" etc.) | 7/10 | Low | Activity transitions, emotional regulation |
+| Reserve | 小饼干 | 7/10 | High（每次仅给1小块） | 仿说训练连续试次、快速reinforcement |
+| Reserve | Bouncing ball | 6/10 | 中 | Gross motor activities, breaks |
+| To Test | Stickers | To Assess | — | Token economy candidate（待建立配对价值） |
 
 ---
 
-## 四、reinforcer管理建议
+## 四、reinforcer管理Recommendation
 
-### Motivating Operation (MO)（MO）管理
+### Motivating Operation (MO)管理
 
 | 策略 | 具体操作 | 目的 |
 |:---|:---|:---|
@@ -94,7 +94,7 @@ tags: [reinforcer, MSWO]
 | **新鲜感维护** | 每两周引入1个新候选物品进行非正式偏好观察 | 保持reinforcer池的多样性 |
 | **配对训练** | 社会性赞美始终与物质reinforcer配对呈现 | 逐步建立社会性reinforcer的条件reinforcement价值 |
 
-### reinforcement程序建议
+### reinforcement程序Recommendation
 
 | 阶段 | 程序 | 适用目标 |
 |:---|:---|:---|
@@ -106,12 +106,12 @@ tags: [reinforcer, MSWO]
 > [!tip] 下次评估提醒
 > 3月中旬进行下一次MSWO复评。重点关注：
 > 1. 汽车玩具是否出现进一步饱和
-> 2. 贴纸经过配对训练后偏好是否提升
+> 2. Stickers经过配对训练后偏好是否提升
 > 3. 社会性reinforcer（赞美+击掌）的独立效力是否增强
 
 ---
 
-## 🔗 关联文件
+## 🔗 Related Files
 
 - [[Client-Demo-Alex - Master Profile]]
 - [[Client-Demo-Alex - Intake Form]]

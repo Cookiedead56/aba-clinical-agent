@@ -1,36 +1,40 @@
 ---
-type: 家书
-date: 2026-02-07
+type: Family Letter
+created: 2026-02-07
 client: Client-Demo-Alex
-tags: [家书, 家长沟通]
+tags: [communication, family-letter]
 ---
 
-# 💌 给 [[Client-Demo-Alex]] 家长的本周反馈：看见微小的发光点
+# Family Letter: Client-Demo-Alex
+> February 7, 2026 - Week 3 Update
 
-**反馈周期**：2026-01-27 至 2026-02-07（第2-3周）
-**Supervisor**：[督导签名]
+Dear Alex's Family,
 
----
+## This Week's Highlights
 
-**🌸 情绪接住与本周High光**
+What a wonderful week of progress! Here are some moments that made our hearts sing:
 
-AlexMother，辛苦了。这两周您每天坚持在家练习"要+物品"的表达，这份坚持比您想象中重要得多——因为正是这样的日积月累，才让Alex开始"敢开口"。
+1. **The Ball Game Breakthrough**: During our ball-passing activity on Wednesday, Alex accepted the ball from his peer for the first time with only a gestural prompt. While he didn't pass it back independently yet, the fact that he stayed in the circle and engaged with the activity for a full 3 minutes is a huge step forward from where we started.
 
-这周有一个特别想和您分享的瞬间：周三下午的传球游戏环节，老师把球放在Alex面前，旁边坐着另一个小朋友。Ms. Zhang轻轻拍了拍Alex的手，指了指旁边的小朋友——然后，Alex真的把球递过去了。虽然他的眼睛还在看地板，虽然他递完就缩回了手，但这只小手伸出去的那一刻，就是他迈向"和人连接"的第一步。这在专业上叫做"Social Interaction的首次发起"，哪怕是在辅助下完成的，它的意义也远超数据本身。
+2. **"Want bubble!"**: Alex is starting to combine two words more frequently when requesting. We heard "want bubble" and "want car" multiple times this week - your practice at home with two-word requests is clearly paying off!
 
-**💡 原理小透视**
+3. **Steady Sitting**: In our small group time, Alex maintained his seat for the full 4-minute activity twice this week, up from our 2-minute baseline. We're using visual timers and his favorite music as transitions.
 
-您可能会想："他都没看人，这算什么互动？"——这是特别正常的疑问。其实，对Alex来说，"递出物品"和"看向对方"是两个独立的技能。他现在已经跨出了"递"这一步，说明他能接受"和另一个人产生物理层面的联系"了。下一步，我们会慢慢把"看一眼"加进去。就像搭积木，一块一块来，每一块都稳稳的，比一次性堆上去要结实得多。
+## Home Extension Activities
 
-**🎒 给您的"每日小外挂"**
+Here are two simple activities to try this week:
 
-这周末在家，如果Alex想要什么东西（比如想吃饼干），您试试在递给他之前，把东西举到您的眼睛旁边——就是让饼干和您的眼睛在同一条线上。不用说任何话，就做这一个动作。如果他的视线从饼干滑到了您的眼睛，哪怕只是一瞬间，立刻把饼干给他，然后开心地说"你看Mother了！"
+1. **Bubble Turn-Taking**: Blow bubbles with Alex, then pause and wait. When he says "want bubble" (or even just "bubble"), immediately blow more. Practice 3-5 times per session.
+   - What to look for: Any attempt at two-word combinations
 
-**✨ 下集预告**
+2. **Car Sharing Practice**: Sit with Alex and a family member, each with a car. Take turns pushing cars back and forth. Model "my turn" and "your turn."
+   - What to look for: Alex accepting a car being offered to him without moving away
 
-下周我们会开始在游戏环节里加入Bubbles——Alex最爱的Bubbles。我们想用Bubbles作为"社交的桥"：两个小朋友轮流吹Bubbles、追Bubbles，让社交变得好玩而不是可怕。期待下周给您带来Bubbles版的好消息！
+## Looking Ahead
 
----
+Next week, we'll be increasing our peer interaction practice to include a gentle peer partner during structured play. We're building toward Alex being comfortable accepting objects from peers independently.
 
-Ms. Zhang & 督导团队
-2026-02-07
+Keep believing in every small step - they add up to big journeys!
+
+Warm regards,
+Ms. Zhang & the Supervision Team

@@ -1,32 +1,50 @@
 ---
-type: 个训日志
-date: 2026-02-14
+type: Session Log
+created: 2026-02-14
 client: Client-Demo-Alex
 teacher: Ms. Zhang
-tags: [日志, 个训]
+tags: [session-log]
 ---
 
-# 课后记录：[[Client-Demo-Alex]]
-**日期**：2026-02-14  **主课老师**：[[Ms. Zhang]]
+# Session Log: 2026-02-14
 
-### 📊 1. 核心目标切片数据
+**Client**: [[Client-Demo-Alex - Master Profile|Client-Demo-Alex]]
+**Therapist**: Ms. Zhang
+**Session Type**: Individual training + small group (2 peers)
+**Duration**: 2.5 hours (09:30-12:00)
 
-* **目标 S3**：两词句Mand（"要+物品"）
-  * 数据/反应：10次测试，5次Delayed辅助下独立产出（"要车车""要Bubbles""要饼干"），3次需要仿说辅助才产出，2次仅单词。Delayed辅助下独立率50%，较上周（40%）提升
-  * 本周新增成功句式："要饼干"（Mother带的小饼干成为新的强效reinforcer）
+---
 
-* **目标 S1**：向同伴发起Social Interaction（递物）
-  * 数据/反应：6次机会（传球游戏+搭积木共享材料），2次在手势辅助下递物给同伴（33%），1次在老师说"给小雨"后自己伸出手递物（疑似自发，但可能是口语辅助效果），3次None回应或回避
-  * 较上周（25%）有提升。Alex今天递球时短暂看了同伴一眼（约1秒），这是以前没有的
+## IEP Goal Data
 
-* **目标 S7**：使用"休息"卡片替代跑开
-  * 数据/反应：团体活动中出现2次社交回避情境。第1次：Alex跑向角落（旧模式）；第2次：Alex看了一眼桌上的"休息"卡片，在老师指向卡片后拿起卡片递给老师——随后获得30秒休息。替代行为使用率1/2（50%，含辅助）
+| Goal # | Goal | Trials | Correct | % | Prompt Level | Notes |
+|:---|:---|:---|:---|:---|:---|:---|
+| S1 | Offer object to peer | 10 | 4 | 40% | Gestural prompt | Improvement! Offered car to peer twice independently |
+| S2 | Group instruction first response | 8 | 4 | 50% | Visual card + verbal | Visual card significantly helps |
+| S3 | Two-word mand | 12 | 4 | 33% | Delayed prompt | "Want cracker" appeared spontaneously |
+| S4 | Answer social questions | 5 | 1 | 20% | Echoic prompt | Answered "Alex" to "What's your name?" with 3-sec delay |
+| S7 | "I need a break" replacement | 4 opp | 1 | 25% | PECS card prompt | First time using break card in real group setting! |
 
-### 🚨 2. 突发行为 ABC
-* **None突发行为**
-* 今天整体情绪稳定，配合度较好。非偏好任务（LRFFC找物）中出现1次推材料，使用high-p序列后恢复配合
+## Highlight Moment
 
-### 💡 3. 今日情绪树洞与求助
-* **🌟 我的High光时刻**：Alex在递球给同伴时看了同伴一眼！虽然只有1秒，但这说明他开始"意识到"对面有个人了。之前递物时眼睛都是看地板的
-* **💥 最卡壳的一个微小痛点**：S8（LRFFC按功能找物）进展比较慢，"哪个用来喝水"他能对（杯子），但"哪个用来穿"（鞋子）他总是选错，感觉对"穿"这个功能概念不理解
-* **❓ 下次督导，我最希望获得的具体指导是**：LRFFC"穿"这个功能要不要先用实物演示（真的穿鞋子），让他建立功能和物品之间的联系，然后再回到图片选择？
+During ball-passing game, Alex independently offered the ball to his peer without any prompt! He looked at the peer briefly (about 1.5 seconds) before extending the ball. This is the first completely independent social initiation recorded.
+
+## Biggest Challenge
+
+During music time, when the aide tried to hold Alex's hand for circle dance, he pulled away and walked to the door. However, instead of running out, he stayed at the doorway watching - which is progress compared to baseline (he used to run to the far corner).
+
+## Reinforcer Notes
+
+- Small crackers (new): very effective for rapid DTT trials, mother brought them
+- Social praise + high-five: Alex is starting to seek high-fives spontaneously after correct responses
+- Toy car: still top-tier but showing slight satiation after 15+ minutes continuous access
+
+## Problem Behavior
+
+| Time | A | B | C |
+|:---|:---|:---|:---|
+| 10:15 | Music circle, aide reached for hand | Pulled hand away, walked to doorway | Stood watching from doorway 2 min, did not flee room |
+| 11:00 | Non-preferred matching task | Pushed 2 cards off table | High-p sequence used, returned to task with gestural prompt |
+
+> [!SUCCESS] Mastery Alert Observation
+> S3 "want + noun" mand showing strong upward trend. If 80%+ is reached in next 2 sessions, consider initiating curriculum-updater for program advancement.

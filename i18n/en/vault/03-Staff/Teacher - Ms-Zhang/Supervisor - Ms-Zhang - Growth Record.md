@@ -1,114 +1,56 @@
 ---
-type: Growth Record
+type: Teacher Record
+level: L2
+status: Active
 created: 2026-01-10
 last_updated: 2026-02-20
-teacher: Ms. Zhang
-tags: [教师档案, 成长追踪]
+tags: [staff]
+aliases: [Ms. Zhang]
+supervisor: Lead Supervisor
+caseload: [Client-Demo-Alex]
 ---
 
-# [[Teacher - Ms. Zhang - Growth Record]]
+# Supervisor - Ms. Zhang - Growth Record
 
----
+## Basic Information
+- **Name**: Ms. Zhang
+- **Level**: L2 - Junior Therapist
+- **Start Date**: 2025-09-01
+- **Supervisor**: Lead Supervisor
+- **Current Caseload**: [[Client-Demo-Alex - Master Profile|Client-Demo-Alex]]
 
-## 1. Basic Information
+## Competency Progress
 
-| Item | Content |
-|:---|:---|
-| **姓名代号** | Ms. Zhang |
-| **入职日期** | 2025-09-01 |
-| **当前职级** | junior个训老师 |
-| **学历背景** | 特殊教育专业本科 |
-| **持有证书** | RBT注册行为技术员（在考） |
-| **直属督导** | [To be assigned] |
-| **负责个案** | [[Client-Demo-Alex]] |
-
----
-
-## 二、Competency Assessment
-
-### 当前胜任力矩阵（2026-02-20 评估）
-
-| 能力维度 | 评级 | 说明 |
-|:---|:---|:---|
-| DTT 回合式教学 | ⭐⭐⭐☆☆ | 基本流程掌握，SD-R-SR 三项链执行到位；辅助撤除的节奏感需加强 |
-| NET 自然环境教学 | ⭐⭐☆☆☆ | 能在明确指导下执行，但自主捕捉教学机会的敏感度不足 |
-| 数据记录 | ⭐⭐⭐⭐☆ | 频率记录和试次百分比记录准确率High，ABC记录详细 |
-| Behavior Management | ⭐⭐⭐☆☆ | 对Escape功能行为的应对基本正确；在行为升级时仍有犹豫 |
-| 社交技能教学 | ⭐⭐☆☆☆ | 同伴介入法的实操经验较少，需更多督导支持 |
-| 家长沟通 | ⭐⭐⭐☆☆ | 态度亲和，能传递基本信息；临床术语的家长化转译能力待提升 |
-| 团体课带领 | ⭐⭐☆☆☆ | 目前主要担任助教角色，尚未独立带领团体课 |
-
-### 晋升路线
-
-```
-当前位置 ▶ junior个训老师
-    ↓  （预计6 months）
-therapist个训老师（独立带2-3个个案 + 独立带团体课）
-    ↓  （预计12 months）
-senior个训老师（带新人 + 参与IEP制定）
-    ↓  （预计18-24 months）
-助理督导（独立制定IEP + 督导junior老师）
-```
-
----
-
-## 三、督导记录摘要
-
-### 2026-02-14 | 第4次督导
-
-**督导形式**：课堂观察（30分钟）+ 反馈会谈（20分钟）
-**观察目标**：S1Social Interaction环节的同伴介入法实操
-
-**Strengths**：
-- 传球游戏的环境安排合理，High偏好活动（Bubbles）嵌入自然
-- 当Alex跑开时，等待后再介入的处理方式恰当（遵循了上次督导Recommendation的10-15秒等待原则）
-
-**成长点**：
-- 同伴介入时，对"何时加入辅助"的时机判断需提升——观察到有2次Alex已经看向同伴（接近自发发起的前兆），但Ms. Zhang提前给了手势辅助，可能截断了自发反应的机会
-- Recommendation：当Alex出现"看向同伴"的行为时，先等待3秒，给自发反应一个时间窗口
-
-**跟进任务**：
-- [ ] 练习"等待3秒再辅助"的节奏
-- [x] 完成"休息"卡片的制作和引入（已完成）
-
----
-
-### 2026-01-28 | 第2次督导
-
-**督导形式**：录像回看（20分钟）+ 反馈会谈（15分钟）
-
-**Strengths**：
-- DTT试次节奏流畅，reinforcement时机精准（SR在正确反应后1秒内呈现）
-- ABC数据记录详细，前因描述包含了环境变量
-
-**成长点**：
-- 社交回避行为发生后的等待时间不一致（有时5秒、有时30秒），需建立一致的应对流程
-- Recommendation：统一为10-15秒静默等待，然后以Low要求方式重新引导
-
----
-
-## 四、培训记录
-
-| 日期 | 主题 | 形式 | 时长 | Notes |
-|:---|:---|:---|:---|:---|
-| 2026-01-10 | Alex个案交接与IEP解读 | 面授 | 2小时 | 入组前培训 |
-| 2026-01-15 | FBA基础与行为功能识别 | 面授+案例分析 | 1.5小时 | 配合AlexFBA分析学习 |
-| 2026-02-01 | 仿说转Mand教学策略 | 视频示范+实操 | 1小时 | 针对S3目标的教学技术 |
-| 2026-02-10 | 同伴介入法实操工作坊 | 实操演练 | 2小时 | 针对S1目标的社交技能教学 |
-
----
-
-## 五、成长目标（2026 Q1）
-
-| 目标 | mastery标准 | 截止日期 | 状态 |
+| Dimension | Current Level | Target | Notes |
 |:---|:---|:---|:---|
-| 掌握仿说转Mand/Tact教学策略 | 独立执行且正确率≥90%（督导观察确认） | 2026-03-15 | In Progress |
-| 建立社交回避行为的一致性应对流程 | 连续5次观察中应对流程一致性≥80% | 2026-02-28 | In Progress |
-| 完成RBT考试备考 | 通过RBT资格考试 | 2026-06-30 | 备考中 |
+| A. ABA Theory | L2 | L3 | Understands MO/EO, prompt hierarchy, DTT structure |
+| B. Teaching Skills | L2 | L3 | Independent DTT execution, reinforcement timing improving |
+| C. Behavior Management | L2 | L3 | Can execute BIP protocols, ABC recording accurate |
+| D. Data Recording | L2 | L3 | Post-session records accurate, 92% data accuracy |
+| E. Parent Communication | L2 | L3 | Can report daily teaching content to parents |
+| F. Supervision | N/A | - | Not yet applicable |
 
----
+## Supervision Log
 
-## 🔗 Related Files
+### 2026-02-14 Supervision Record (Client: [[Client-Demo-Alex]])
+* **Previous pain point**: Reinforcement timing was too slow (>2 seconds)
+* **Improvement status**: Improved - timing now consistently under 1 second
+* **Highlight**: Ms. Zhang showed excellent patience during Alex's social avoidance episode - maintained calm, did not chase, allowed natural consequence
+* **New pain point**: During group instruction embedding, verbal SD volume too low for group setting
+* **Practice tip**: Use "teacher voice" - project from diaphragm, clear and brief instructions
+* **BST stage**: Instruction done, needs Modeling next session
+* **Focus for next observation**: Voice projection during group instructions
 
-- [[Client-Demo-Alex - Master Profile]]
-- [[Client-Demo-Alex - IEP-2026-01-15]]
+### 2026-01-22 Supervision Record (Client: [[Client-Demo-Alex]])
+* **Pain point identified**: Reinforcement delivery timing - averaging 2-3 seconds delay after correct response
+* **Practice tip**: Pre-stage reinforcer in hand, deliver within 0.5 seconds of correct response
+* **BST stage**: Instruction + Feedback completed
+* **Focus for next observation**: Reinforcement timing consistency
+
+## Training Completed
+
+| Date | Topic | Trainer | Notes |
+|:---|:---|:---|:---|
+| 2026-01-10 | Onboarding orientation | Lead Supervisor | Initial ABA training |
+| 2026-01-15 | FCT implementation for social avoidance | Lead Supervisor | Specific to Alex's BIP |
+| 2026-02-01 | Visual support strategies in group settings | Lead Supervisor | Implementation of visual prompt cards |

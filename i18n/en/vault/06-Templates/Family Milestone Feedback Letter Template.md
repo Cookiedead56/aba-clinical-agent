@@ -1,19 +1,33 @@
-# 💌 给 [[儿童代号]] 家长的本周反馈：看见微小的发光点
+---
+type: Template
+tags: [template, communication, family-letter]
+---
 
-**反馈周期**：{{date}}
-**Supervisor**：[督导签名]
+# Template: Family Milestone Feedback Letter
+
+> Use this template when generating milestone celebration reports for parents via the `milestone-report` skill.
 
 ---
 
-**🌸 情绪接住与本周High光**
-* [第一段永远先肯定家长的辛苦]
-* [详细描述本周孩子的一个极其微小但真实的进步瞬间。例如："这周四下午，虽然他还是想Escape画画，但他第一次试着用手势表达了'不'，而不是直接扔笔。"]
+Dear [Code]'s Family,
 
-**💡 原理小透视 (消除未知的焦虑)**
-* [用大白话解释这个进步或某次退步背后的逻辑。例如："能用手势拒绝，说明他开始理解沟通比发脾气更有效了，这是巨大的跨越。"]
+**Witnessing the Power of Growth**
 
-**🎒 给您的"每日小外挂" (在家轻松generalization)**
-* [只给出一个在家里极容易完成的动作，降Low家长实操门槛。例如："这周末，如果他再想要零食，我们在递给他之前，试着稍微停顿 2 秒钟，什么都不用说，只做这一个停顿就好。"]
+During this phase of intervention, we have witnessed your child's most inspiring breakthroughs:
 
-**✨ 下集预告**
-* [预告下周打算带孩子攻克的新目标。例如："下周，我们会尝试把这个 2 秒的停顿变成一个对视。期待下周给您带来好消息！"]
+- **From [baseline state] to [current state]**: [Specific life-context description with real session log references]
+
+**Key Progress Highlights**
+
+[2-3 data-backed progress points translated into parent-friendly language]
+
+**A Word from Your Supervisor**
+
+Behind these milestones is your dedication to practicing at home. Data tells one story, but the spark in your child's eyes tells the real one.
+
+**Next Chapter: [Next Phase Name]**
+
+We will carry these achievements forward as we work on [next phase goals]. Keep believing in the power of every small step!
+
+Best regards,
+[Supervisor Name]

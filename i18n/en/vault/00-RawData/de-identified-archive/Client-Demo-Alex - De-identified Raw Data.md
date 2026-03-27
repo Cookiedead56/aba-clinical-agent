@@ -1,44 +1,34 @@
 ---
-type: de-identified archive
+type: De-identified Raw Data
 created: 2026-01-10
 client: Client-Demo-Alex
-tags: [脱敏, 存档]
+tags: [data, de-identified, raw-record]
 ---
 
-# [[Client-Demo-Alex - 脱敏原始数据]]
+# [[Client-Demo-Alex - De-identified Raw Data]]
 
-> [!important] 脱敏说明
-> 本文件为示范用途。在真实使用场景中，此目录存放经 `privacy-filter` 技能处理后的脱敏数据。
-> - 所有真实姓名已替换为系统代号
-> - Identity Mapping Table存放在 `*Identity Mapping Table-绝密*` 文件Medium (已被 .gitignore 排除）
-> - 原始 PDF/XLSX 文件不纳入版本控制
+> [!IMPORTANT] Privacy Notice
+> This document has been de-identified by the BCBA Privacy Guard. Real identity mappings exist only in the local confidential table.
 
----
+## De-identified Intake Interview Record
 
-## 脱敏处理记录
+**Interview Date**: 2026-01-10
+**Interviewer**: Ms. Zhang
+**Information Source**: Mother (primary caregiver)
 
-| 处理日期 | 原始文件 | 脱敏操作 | 处理人 |
-|:---|:---|:---|:---|
-| 2026-01-10 | 初访信息采集表.pdf | 姓名→Client-Demo-Alex，家长姓名→"Mother/Father"，联系方式→[已脱敏]，机构名→XX市儿童医院 | privacy-filter |
-| 2026-01-12 | VB-MAPP评分表.xlsx | 评估者真名→Ms. Zhang，儿童真名→Client-Demo-Alex | privacy-filter |
+Mother reports: "Alex was born in November 2021, full-term delivery, no perinatal complications. He was late to talk - his first word didn't come until about 22 months. We first saw a doctor in June 2023 because he wouldn't respond to us or talk. He was diagnosed with ASD Level 2 at the children's hospital in December 2023, along with speech-language delay."
 
----
+"He went to two different agencies for therapy - sensory integration and individual training at the first one for a year and a half, then speech therapy at the second one for 6 months. His big movements got better but he still barely talks on his own."
 
-## 脱敏字段映射示例
+"What worries me most is that he never plays with other kids. If another child comes near him, he runs away. The kindergarten teacher says he completely ignores group instructions. I'm afraid he won't be able to attend regular school."
 
-```
-# 以下为示范，真实项目中此映射存储在绝密对照表中
-儿童真名 → Client-Demo-Alex
-家长姓名 → Mother / Father
-教师真名 → Ms. Zhang
-机构真名 → XX市儿童医院 / A机构 / B机构
-联系方式 → [已脱敏]
-家庭住址 → [已脱敏]
-```
+"At home, he likes toy cars the most - especially the small racing cars. He can spin the wheels for a very long time. He also likes bubbles. When he wants something, he just pulls my hand toward it instead of asking with words."
+
+**Family situation**: Mother is full-time caregiver, actively cooperative. Father works long hours, limited involvement. Grandparents help occasionally, tendency to immediately satisfy demands when Alex cries.
 
 ---
 
-## 🔗 Related Files
+## Related Files
 
 - [[Client-Demo-Alex - Intake Form]]
 - [[Client-Demo-Alex - Master Profile]]

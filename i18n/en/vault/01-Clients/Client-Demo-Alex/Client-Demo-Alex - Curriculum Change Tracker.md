@@ -3,73 +3,73 @@ type: Curriculum Change Tracker
 created: 2026-01-15
 last_updated: 2026-02-20
 client: Client-Demo-Alex
-tags: [teaching program变更, 教学管理]
+tags: [curriculum-change, teaching-management]
 ---
 
 # [[Client-Demo-Alex - Curriculum Change Tracker]]
 
-**个案代号**：Client-Demo-Alex
-**当前IEP**：[[Client-Demo-Alex - IEP-2026-01-15]]
-**Assigned Therapist**：Ms. Zhang
+**Client Code**: Client-Demo-Alex
+**Current IEP**: [[Client-Demo-Alex - IEP-2026-01-15]]
+**Assigned Therapist**: Ms. Zhang
 
 ---
 
-## 变更记录
+## Change Records
 
-### 变更 #2 | 2026-02-20
+### Change #2 | 2026-02-20
 
 | Item | Content |
 |:---|:---|
-| **变更类型** | 策略调整 |
-| **涉及目标** | S3（两词句Mand） |
-| **决策依据** | S3当前进度25%，已超出第一阶段预期（仿说辅助下4/5试次），可进入下一教学切片 |
-| **变更内容** | 扩展句式类型：从"要+名词"→ 新增"动词+名词"组合（"吃饼干""玩车车""看Bubbles"） |
-| **新教学切片** | 使用仿说辅助引入"动词+名词"，mastery标准：Delayed辅助下独立产出3/5试次后撤除辅助 |
-| **审批** | 督导确认 ✅ |
+| **Change Type** | Strategy adjustment |
+| **Target Goal** | S3 (Two-word Mand) |
+| **Decision Basis** | S3 current progress 25%, exceeds Phase 1 expectation (echoic prompt 4/5 trials), ready for next teaching program |
+| **Change Content** | Expand sentence types: from "want + noun" to adding "verb + noun" combinations ("eat cracker", "play car", "see bubble") |
+| **New Teaching Program** | Use echoic prompt to introduce "verb + noun", mastery criterion: independent production with delayed prompt 3/5 trials then fade prompt |
+| **Approval** | Supervisor confirmed |
 
 ---
 
-### 变更 #1 | 2026-02-03
+### Change #1 | 2026-02-03
 
 | Item | Content |
 |:---|:---|
-| **变更类型** | 新增辅助工具 |
-| **涉及目标** | S2（集体指令首次回应）、S7（"我要休息"替代行为） |
-| **决策依据** | S2在纯口语指令下进展缓慢（第2周仍在35%），需增加视觉支持；S7需要具象化的沟通工具 |
-| **变更内容** | ① 引入视觉提示卡（"坐好""看这里""举手"等High频集体指令配图卡）用于S2 ② 制作"我要休息"PECS卡片用于S7 |
-| **效果追踪** | 视觉卡引入后S2在1周内从35%提升至42%，效果显著；"休息"卡片在2026-02-10首次在真实情境中使用 |
-| **审批** | 督导确认 ✅ |
+| **Change Type** | Added assistive tools |
+| **Target Goals** | S2 (Group instruction first response), S7 ("I need a break" replacement) |
+| **Decision Basis** | S2 progressing slowly under verbal-only instruction (Week 2 still at 35%), needs visual support; S7 needs concrete communication tool |
+| **Change Content** | 1. Introduced visual prompt cards (picture cards for high-frequency group instructions: "sit down", "look here", "raise hand") for S2. 2. Created "I need a break" PECS card for S7 |
+| **Effect Tracking** | After visual card introduction, S2 improved from 35% to 42% within 1 week, significant effect; "Break" card first used in real setting on 2026-02-10 |
+| **Approval** | Supervisor confirmed |
 
 ---
 
-## 当前教学切片清单
+## Current Teaching Program List
 
-| 目标编号 | 当前教学切片 | prompt hierarchy | mastery标准 | 进度 |
+| Goal # | Current Teaching Program | Prompt Level | Mastery Criterion | Progress |
 |:---|:---|:---|:---|:---|
-| S1 | 在结构化游戏中向同伴递物 | 手势辅助→Delayed辅助 | 独立完成6/10机会 | 35% |
-| S2 | 在小组中对集体指令首次回应 | 视觉卡+口语→仅口语 | 首次回应率70% | 45% |
-| S3a | "要+名词"两词句Mand | Delayed辅助→独立 | 自发产出50% | 25% |
-| S3b | "动词+名词"两词句Mand（新增） | 仿说辅助→Delayed辅助 | Delayed辅助下3/5试次 | 刚启动 |
-| S4 | 回答"你叫什么名字" | 仿说辅助→Delayed辅助 | Delayed3秒内独立回答4/5试次 | 15% |
-| S5 | 自发Tact命名 | 时间延宕→独立 | 见到新物品5秒内自发命名 | 25% |
-| S6 | 功能性游戏持续时间 | 定时提示→自然 | 独立持续5分钟 | 3.5分钟 |
-| S7 | 使用"休息"卡片替代跑开 | "休息"卡片辅助→口语提示→独立 | 自发使用率50% | 20% |
-| S8 | 按功能找物"哪个用来喝水" | 视觉排列2选1→3选1 | 3选1条件下正确率80% | 20% |
+| S1 | Offer object to peer in structured play | Gestural -> delayed | Independent 6/10 opportunities | 35% |
+| S2 | First response to group instructions in small group | Visual card + verbal -> verbal only | First response rate 70% | 45% |
+| S3a | "Want + noun" two-word mand | Delayed -> independent | Spontaneous production 50% | 25% |
+| S3b | "Verb + noun" two-word mand (new) | Echoic -> delayed | Delayed prompt 3/5 trials | Just started |
+| S4 | Answer "What is your name?" | Echoic -> delayed | Independent answer within 3-sec delay 4/5 trials | 15% |
+| S5 | Spontaneous tact naming | Time delay -> independent | Spontaneous naming within 5 sec of seeing new object | 25% |
+| S6 | Functional play duration | Timed prompt -> natural | Independent sustained 5 minutes | 3.5 min |
+| S7 | Use "break" card to replace running | PECS card -> verbal -> independent | Spontaneous use rate 50% | 20% |
+| S8 | Find object by function "which one for drinking" | Visual array 2-choice -> 3-choice | 3-choice 80% correct | 20% |
 
 ---
 
-## mastery/升级历史
+## Mastery/Advancement History
 
-| 日期 | 目标 | 原切片 | 新切片 | Notes |
+| Date | Goal | Previous Program | New Program | Notes |
 |:---|:---|:---|:---|:---|
-| — | — | — | — | 暂None目标mastery，所有目标仍在In Progress |
+| - | - | - | - | No goals mastered yet, all goals still in progress |
 
-> [!note] mastery标准提醒
-> teaching program升级条件：连续3天正确率≥80%，或督导根据数据趋势确认通过。mastery后由 `curriculum-updater` 技能执行变更流程。
+> [!note] Mastery Criterion Reminder
+> Program advancement condition: 3 consecutive days at 80% or above, or supervisor confirms based on data trends. After mastery, the `curriculum-updater` skill executes the change process.
 
 ---
 
-## 🔗 Related Files
+## Related Files
 
 - [[Client-Demo-Alex - Master Profile]]
 - [[Client-Demo-Alex - IEP-2026-01-15]]

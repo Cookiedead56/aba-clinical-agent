@@ -1,29 +1,45 @@
 ---
-type: 个训日志
-date: 2026-01-22
+type: Session Log
+created: 2026-01-22
 client: Client-Demo-Alex
 teacher: Ms. Zhang
-tags: [日志, 个训]
+tags: [session-log]
 ---
 
-# 课后记录：[[Client-Demo-Alex]]
-**日期**：2026-01-22  **主课老师**：[[Ms. Zhang]]
+# Session Log: 2026-01-22
 
-### 📊 1. 核心目标切片数据
+**Client**: [[Client-Demo-Alex - Master Profile|Client-Demo-Alex]]
+**Therapist**: Ms. Zhang
+**Session Type**: Individual training (DTT + NET)
+**Duration**: 2 hours (10:00-12:00)
 
-* **目标 S3**：两词句Mand（"要+物品"）
-  * 数据/反应：10次测试，3次仿说辅助下正确产出"要Bubbles"，4次仅说"Bubbles"（单词），3次None反应。仿说辅助下正确率30%
-  * 📌 **High光**：第6试次时，Alex在老师尚未给出仿说辅助前，自发说出"要Bubbles"——这是入组以来首次自发两词句Mand！
+---
 
-* **目标 S2**：集体指令首次回应
-  * 数据/反应：8次集体指令机会（"坐好""看这里""手放好"），首次回应3次（37.5%）。"坐好"回应最稳定（3/3），"看这里"较弱（0/3），"手放好"居Medium (0/2）
+## IEP Goal Data
 
-### 🚨 2. 突发行为 ABC
-* **前因**：团体游戏时间，老师让Alex把球递给旁边的同伴小雨
-* **行为**：AlexLow头看球约2秒，站起来抱球走向教室角落（社交回避）
-* **后果**：我等了10秒后走过去，蹲下来平静地说"我们先休息一下"，用手指了指休息区的垫子。Alex坐到垫子上约30秒后，我用Bubbles引导他回到游戏圈，降Low难度改为"把球放到箱子里"（非社交任务），Alex完成了
+| Goal # | Goal | Trials | Correct | % | Prompt Level | Notes |
+|:---|:---|:---|:---|:---|:---|:---|
+| S1 | Offer object to peer | 5 | 1 | 20% | Full physical | First session targeting this goal |
+| S3 | Two-word mand ("want + noun") | 10 | 3 | 30% | Echoic prompt | Said "want car" with echoic prompt! |
+| S5 | Spontaneous tact | 8 | 2 | 25% | Time delay | Named "car" and "bubble" spontaneously |
 
-### 💡 3. 今日情绪树洞与求助
-* **🌟 我的High光时刻**：Alex自发说出"要Bubbles"的那一刻！我立刻给了他Bubbles+超级夸张的赞美"你说了要Bubbles！太厉害了！"，他看了我一眼还微微笑了
-* **💥 最卡壳的一个微小痛点**：当团体游戏中他跑到角落时，我不太确定应该立刻追过去还是等一下再引导。今天选择了等10秒再过去，但不知道这个时间合不合适
-* **❓ 下次督导，我最希望获得的具体指导是**：社交回避发生时的最佳等待时长是多少？如果他跑到角落但没有哭闹，我应该等多久再介入？
+## Highlight Moment
+
+During break time, Alex spontaneously said "want bubble" (two-word mand) to me when he saw the bubble container on the shelf. This is the first recorded two-word spontaneous mand!
+
+## Biggest Challenge
+
+During the peer interaction trial, Alex immediately turned away when I tried to guide him to hand a block to his peer. I had to use full physical prompting for all 5 trials.
+
+## Reinforcer Notes
+
+- Toy car: highly effective throughout session
+- Bubbles: effective, used for social interaction embedding
+- No satiation observed today
+
+## Problem Behavior
+
+| Time | A | B | C |
+|:---|:---|:---|:---|
+| 10:45 | Peer approached during block play | Stood up, walked to corner with blocks | Peer left, Alex played alone 3 min |
+| 11:20 | Group instruction "sit down" | No response, continued standing | Teacher guided to seat with gestural prompt |

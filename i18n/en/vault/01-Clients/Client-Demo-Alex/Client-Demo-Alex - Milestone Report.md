@@ -2,114 +2,114 @@
 type: Milestone Report
 created: 2026-02-20
 client: Client-Demo-Alex
-tags: [里程碑, 进展报告]
+tags: [milestone, progress-report]
 ---
 
 # [[Client-Demo-Alex - Milestone Report]]
 
-**报告日期**：2026-02-20
-**报告周期**：2026-01-15 至 2026-02-20（入组后第5周）
-**撰写人**：督导
-**情报源**：[[Client-Demo-Alex - IEP-2026-01-15]] | [[Client-Demo-Alex - Master Profile]]
+**Report Date**: 2026-02-20
+**Report Period**: 2026-01-15 to 2026-02-20 (Week 5 post-enrollment)
+**Author**: Supervisor
+**Sources**: [[Client-Demo-Alex - IEP-2026-01-15]] | [[Client-Demo-Alex - Master Profile]]
 
 ---
 
-## 一、整体进展概要
+## I. Overall Progress Summary
 
-**干预时长**：5周（25个教学日）
-**实际出勤**：23天（出勤率92%，因感冒请假2天）
-**总评**：初期适应良好，多数短期目标呈正向趋势。社交回避行为频率下降约30%，替代行为"我要休息"初步建立。语言目标进展速度超出预期。
-
----
-
-## 二、IEP 目标进展追踪
-
-### 目标组1：Social Interaction
-
-| 编号 | 目标 | 基线 | 当前 | 月目标 | 趋势 | 状态 |
-|:---|:---|:---|:---|:---|:---|:---|
-| S1 | 向同伴发起Social Interaction（递物/邀请） | 20% | 35% | 60% | 📈 上升 | In Progress |
-| S7 | 使用"我要休息"替代逃跑 | 0% | 20% | 50% | 📈 上升 | In Progress |
-
-**临床解读**：
-- S1：Alex在成人辅助下已能完成"递物给同伴"动作，但自发发起仍需手势辅助。进展符合预期阶梯。重点在于从"被动执行"过渡到"主动发起"
-- S7：替代行为已在1:1情境中初步建立（辅助下使用），正在向模拟小组情境过渡。逃跑行为从基线4-5次/30分钟降至约3次/30分钟（下降约30%），说明antecedent manipulation策略有效
-
-### 目标组2：Group Participation与语言
-
-| 编号 | 目标 | 基线 | 当前 | 月目标 | 趋势 | 状态 |
-|:---|:---|:---|:---|:---|:---|:---|
-| S2 | 集体指令首次回应 | 30% | 45% | 70% | 📈 上升 | In Progress |
-| S3 | 两词句表达需求（Mand） | 10% | 25% | 50% | 📈 上升 | In Progress |
-| S4 | 回答社交问题 | 0% | 15% | 40% | 📈 上升 | In Progress |
-| S5 | 自发Tact命名新物品 | 15% | 25% | 45% | 📈 上升 | In Progress |
-
-**临床解读**：
-- S2：在2-3人小组中首次回应率已提升至45%。关键突破点在于引入视觉提示卡后，Alex对"坐好""看这里"等High频指令的回应显著提升
-- S3：**进展亮点** — 仿说转Mand策略效果显著。Alex已能在Delayed辅助下产出"要车车""要Bubbles"等两词句，自发产出率从10%升至25%。仿说Strengths（Echoic 8/10）确实是语言扩展的有力杠杆
-- S4：从完全None法回答到辅助下能回答"你叫什么名字"，虽然数据仅15%，但从零起步的质变值得肯定
-- S5：自发Tact在NET（自然环境教学）中出现增长，尤其是对汽车相关词汇（"车""轮子""快"）
-
-### 目标组3：认知与游戏
-
-| 编号 | 目标 | 基线 | 当前 | 月目标 | 趋势 | 状态 |
-|:---|:---|:---|:---|:---|:---|:---|
-| S6 | 功能性游戏持续时间 | 2分钟 | 3.5分钟 | 5分钟 | 📈 上升 | In Progress |
-| S8 | 按特征/功能找物（LRFFC） | 10% | 20% | 40% | 📈 上升 | In Progress |
+**Intervention Duration**: 5 weeks (25 teaching days)
+**Actual Attendance**: 23 days (92% attendance rate, 2 days absent due to cold)
+**Overall Assessment**: Initial adaptation going well, most short-term goals showing positive trends. Social avoidance behavior frequency decreased approximately 30%, replacement behavior "I need a break" initially established. Language goal progress exceeding expectations.
 
 ---
 
-## 三、关键里程碑事件
+## II. IEP Goal Progress Tracking
 
-| 日期 | 事件 | 意义 |
+### Goal Set 1: Social Interaction
+
+| # | Goal | Baseline | Current | Monthly Target | Trend | Status |
+|:---|:---|:---|:---|:---|:---|:---|
+| S1 | Initiate social interaction with peers (offering/inviting) | 20% | 35% | 60% | Upward | In Progress |
+| S7 | Use "I need a break" to replace running | 0% | 20% | 50% | Upward | In Progress |
+
+**Clinical Interpretation**:
+- S1: Alex can complete "offer object to peer" with adult prompting, but spontaneous initiation still requires gestural prompt. Progress aligns with expected trajectory. Key focus: transitioning from "passive execution" to "active initiation"
+- S7: Replacement behavior initially established in 1:1 setting (prompted use), transitioning to simulated group setting. Running behavior decreased from baseline 4-5 times/30 min to approximately 3 times/30 min (approximately 30% decrease), indicating antecedent control strategies are effective
+
+### Goal Set 2: Group Participation & Language
+
+| # | Goal | Baseline | Current | Monthly Target | Trend | Status |
+|:---|:---|:---|:---|:---|:---|:---|
+| S2 | Group instruction first response | 30% | 45% | 70% | Upward | In Progress |
+| S3 | Two-word mand expression | 10% | 25% | 50% | Upward | In Progress |
+| S4 | Answer social questions | 0% | 15% | 40% | Upward | In Progress |
+| S5 | Spontaneous tact of new objects | 15% | 25% | 45% | Upward | In Progress |
+
+**Clinical Interpretation**:
+- S2: First-response rate in 2-3 person group has improved to 45%. Key breakthrough was introducing visual prompt cards, which significantly improved response to high-frequency instructions like "sit down" and "look here"
+- S3: **Progress highlight** - Echoic-to-mand transfer strategy highly effective. Alex can now produce two-word mands ("want car", "want bubble") with delayed prompting, spontaneous production rate increased from 10% to 25%. Echoic strength (8/10) confirmed as powerful language expansion lever
+- S4: From completely unable to answer to prompted answering of "What is your name?" - while data is only 15%, this qualitative breakthrough from zero deserves recognition
+- S5: Spontaneous tacts increasing in NET (Natural Environment Teaching), especially for car-related vocabulary ("car", "wheel", "fast")
+
+### Goal Set 3: Cognitive & Play
+
+| # | Goal | Baseline | Current | Monthly Target | Trend | Status |
+|:---|:---|:---|:---|:---|:---|:---|
+| S6 | Functional play duration | 2 min | 3.5 min | 5 min | Upward | In Progress |
+| S8 | Find objects by feature/function (LRFFC) | 10% | 20% | 40% | Upward | In Progress |
+
+---
+
+## III. Key Milestone Events
+
+| Date | Event | Significance |
 |:---|:---|:---|
-| 2026-01-22 | Alex在课间首次自发对老师说"要Bubbles"（两词句Mand） | 自发两词句Mand的首次记录，标志语言扩展策略起效 |
-| 2026-02-03 | 在传球游戏中，Alex首次将球递给同伴（手势辅助下） | Social Interaction目标的首次成功试次 |
-| 2026-02-10 | Alex首次在小组活动中使用"休息"卡片替代跑开 | FCT替代行为在真实情境中首次出现 |
-| 2026-02-18 | 仿说辅助下回答"你叫什么名字"——"Alex"（Delayed3秒） | IV目标从零突破 |
+| 2026-01-22 | Alex spontaneously said "want bubble" to teacher during break (two-word mand) | First recorded spontaneous two-word mand, marking language expansion strategy effectiveness |
+| 2026-02-03 | During ball-passing game, Alex passed ball to peer for first time (with gestural prompt) | First successful trial for social interaction goal |
+| 2026-02-10 | Alex used "break" card for the first time in group activity instead of running | FCT replacement behavior first appeared in real setting |
+| 2026-02-18 | Answered "What is your name?" with echoic prompt - "Alex" (3-second delay) | Intraverbal goal breakthrough from zero |
 
 ---
 
-## 四、问题行为趋势
+## IV. Problem Behavior Trends
 
-| 靶行为 | Baseline Frequency | 当前频率 | 变化 | 分析 |
+| Target Behavior | Baseline Frequency | Current Frequency | Change | Analysis |
 |:---|:---|:---|:---|:---|
-| 社交回避（跑开） | 4-5次/30分钟 | ~3次/30分钟 | ↓ 30% | antecedent manipulation（降Low社交难度+视觉预告）有效；FCT替代行为正在建立 |
-| 尖声（集体活动） | 2-3次/次 | 1-2次/次 | ↓ 轻微 | NCR+前置关注有一定效果，需持续监测 |
-| 推材料（桌面教学） | 3次/20分钟 | 1-2次/20分钟 | ↓ Moderate | high-p序列和任务穿插策略有效；"帮我"替代行为萌芽期 |
+| Social avoidance (running) | 4-5 times/30 min | ~3 times/30 min | Down 30% | Antecedent control (reduced social demand + visual schedule) effective; FCT replacement establishing |
+| Vocalization (group) | 2-3 times/session | 1-2 times/session | Slight decrease | NCR + proactive attention showing some effect, continued monitoring needed |
+| Pushing materials (tabletop) | 3 times/20 min | 1-2 times/20 min | Moderate decrease | High-p sequence and task interspersal strategies effective; "help me" replacement behavior emerging |
 
 ---
 
-## 五、reinforcer效力变化
+## V. Reinforcer Effectiveness Changes
 
-详见 [[Client-Demo-Alex - Reinforcer Assessment]]（2026-02-15更新）
+See [[Client-Demo-Alex - Reinforcer Assessment]] (updated 2026-02-15)
 
-- 汽车玩具和Bubbles效力稳定
-- 新增小饼干为有效reinforcer
-- 社会性reinforcer（赞美+击掌）经配对训练后，击掌的独立效力有所提升
+- Toy cars and bubbles: effectiveness stable
+- New addition: Small crackers as effective reinforcer
+- Social reinforcers (praise + high-five): After pairing training, high-five showing increased independent effectiveness
 
 ---
 
-## 六、家庭generalization情况
+## VI. Home Generalization Status
 
-| 维度 | 情况 | Recommendation |
+| Dimension | Status | Recommendation |
 |:---|:---|:---|
-| Mother配合度 | 优秀——每天坚持练习"要+物品"两词句Mand | 继续保持，下阶段增加"看，+物品名"Tact练习 |
-| Father参与度 | 仍然偏Low | Recommendation邀请Father观摩一次教学示范课 |
-| Grandparents | 即时满足模式改善中——Mother已与Grandparents沟通Delayed策略 | 继续关注，提供简化版视觉提示卡供Grandparents使用 |
+| Mother cooperation | Excellent - practices "want + object" two-word mands daily | Continue, add "look, + object name" tact practice next phase |
+| Father involvement | Still low | Recommend inviting father to observe a teaching demonstration session |
+| Grandparents | Immediate gratification pattern improving - mother has communicated delay strategy with grandparents | Continue monitoring, provide simplified visual prompt cards for grandparents |
 
 ---
 
-## 七、下阶段调整Recommendation
+## VII. Next Phase Adjustment Recommendations
 
-1. **S1Social Interaction**：增加同伴介入训练频率，从每周2次增至3次。选择性格温和的同伴作为固定玩伴
-2. **S7替代行为**：开始在真实集体活动中系统练习，逐步减薄休息时长（30秒→20秒）
-3. **S3两词句Mand**：开始引入"动词+名词"组合（如"吃饼干""玩车车"），扩展句式类型
-4. **新增观察**：Alex在NET中对汽车相关话题表现出较强动机，考虑以此为载体设计主题式社交活动
+1. **S1 Social Interaction**: Increase peer-mediated intervention frequency from 2x to 3x weekly. Select gentle peers as fixed play partners
+2. **S7 Replacement Behavior**: Begin systematic practice in real group activities, gradually thin break duration (30 sec -> 20 sec)
+3. **S3 Two-word Mand**: Introduce "verb + noun" combinations (e.g., "eat cracker", "play car"), expanding sentence types
+4. **New Observation**: Alex shows strong motivation for car-related topics in NET; consider designing themed social activities using this as a vehicle
 
 ---
 
-## 🔗 Related Files
+## Related Files
 
 - [[Client-Demo-Alex - Master Profile]]
 - [[Client-Demo-Alex - IEP-2026-01-15]]

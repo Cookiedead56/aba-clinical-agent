@@ -8,110 +8,110 @@ tags: [reinforcer, MSWO]
 
 # [[Client-Demo-Alex - Reinforcer Assessment]]
 
-**Assessment Date**：2026-01-18（首次正式MSWO）
-**最近更新**：2026-02-15（月度复评）
-**评估人**：Ms. Zhang（督导审核）
-**情报源**：[[Client-Demo-Alex - Intake Form]] | [[Client-Demo-Alex - Master Profile]]
+**Assessment Date**: 2026-01-18 (first formal MSWO)
+**Last Updated**: 2026-02-15 (monthly review)
+**Assessor**: Ms. Zhang (supervisor reviewed)
+**Sources**: [[Client-Demo-Alex - Intake Form]] | [[Client-Demo-Alex - Master Profile]]
 
 ---
 
-## 一、评估方法
+## I. Assessment Method
 
-### MSWO（Multiple Stimulus Without Replacement）
+### MSWO (Multiple Stimulus Without Replacement)
 
-**操作流程**：
-1. 将5-7种候选reinforcer同时摆放在桌面上（随机排列）
-2. 指令"你想要哪一个？"，等待Alex自发选择
-3. 允许接触被选物品10-15秒后收回
-4. 将被选物品移除，重新排列剩余物品
-5. 重复直到所有物品被选择或Alex不再做出选择
-6. 连续进行3轮，计算每个物品的平均选择排序
+**Procedure**:
+1. Place 5-7 candidate reinforcers on the table simultaneously (random arrangement)
+2. Instruction: "Which one do you want?", wait for Alex to make a spontaneous choice
+3. Allow 10-15 seconds of access to selected item, then retrieve
+4. Remove selected item, rearrange remaining items
+5. Repeat until all items are selected or Alex stops making choices
+6. Conduct 3 rounds, calculate average selection rank for each item
 
-**评估环境**：个训室，1:1安静环境，None其他干扰
+**Assessment Setting**: Individual training room, 1:1 quiet environment, no distractions
 
 ---
 
-## 二、首次评估结果（2026-01-18）
+## II. Initial Assessment Results (2026-01-18)
 
-### MSWO排序
+### MSWO Rankings
 
-| 排名 | reinforcer | 选择频率（3轮） | 平均选择排序 | 接触时长 | 分类 |
+| Rank | Reinforcer | Selection Frequency (3 rounds) | Average Rank | Contact Duration | Category |
 |:---|:---|:---|:---|:---|:---|
-| 1 | Toy cars (small race cars) | 3/3 首选 | 1.0 | >5分钟（不愿归还） | High偏好 |
-| 2 | Bubbles | 2/3 第二选 | 1.7 | 3-4分钟 | High偏好 |
-| 3 | 音乐（《Alex星》播放器） | 3/3 第三选 | 3.0 | 2-3分钟 | 中偏好 |
-| 4 | Bouncing ball | 2/3 第四选 | 3.7 | 1-2分钟 | 中偏好 |
-| 5 | Stickers（动物Stickers） | 1/3 被选 | 5.3 | <30秒 | Low偏好 |
-| 6 | 积木（彩色积木） | 1/3 被选 | 5.7 | 1分钟 | Low偏好 |
-| 7 | 橡皮泥 | 0/3 | 未选择 | — | None偏好 |
+| 1 | Toy cars (small race cars) | 3/3 first pick | 1.0 | >5 minutes (reluctant to return) | High preference |
+| 2 | Bubbles | 2/3 second pick | 1.7 | 3-4 minutes | High preference |
+| 3 | Music ("Twinkle Star" player) | 3/3 third pick | 3.0 | 2-3 minutes | Medium preference |
+| 4 | Bouncing ball | 2/3 fourth pick | 3.7 | 1-2 minutes | Medium preference |
+| 5 | Stickers (animal stickers) | 1/3 selected | 5.3 | <30 seconds | Low preference |
+| 6 | Blocks (colored blocks) | 1/3 selected | 5.7 | 1 minute | Low preference |
+| 7 | Play-Doh | 0/3 | Not selected | - | No preference |
 
-### 社会性Reinforcer Assessment
+### Social Reinforcer Assessment
 
-| 类型 | 反应 | 效力评估 |
+| Type | Response | Effectiveness |
 |:---|:---|:---|
-| 口头赞美（"太棒了！"） | 短暂看向说话者，None明显情绪反应 | Low（单独使用效力不足） |
-| 击掌 | 在辅助下完成，偶尔微笑 | Medium (需与物质reinforcer配对使用） |
-| 挠痒痒 | 笑声+身体靠近 | 中High（仅限熟悉成人） |
-| 拥抱 | 被动接受，不主动寻求 | Low |
+| Verbal praise ("Great job!") | Brief glance toward speaker, no notable emotional response | Low (insufficient when used alone) |
+| High-five | Completes with prompting, occasional smile | Medium (needs pairing with tangible reinforcers) |
+| Tickling | Laughter + physical approach | Medium-high (only with familiar adults) |
+| Hugs | Passively accepts, does not actively seek | Low |
 
 ---
 
-## 三、月度复评结果（2026-02-15）
+## III. Monthly Review Results (2026-02-15)
 
-### 偏好变化追踪
+### Preference Change Tracking
 
-| reinforcer | 1月排名 | 2月排名 | 变化 | Notes |
+| Reinforcer | Jan Rank | Feb Rank | Change | Notes |
 |:---|:---|:---|:---|:---|
-| 汽车玩具 | 1 | 1 | → | 效力稳定，但连续使用>15分钟后出现饱和迹象（开始旋转车轮而非功能性玩） |
-| Bubbles | 2 | 2 | → | 效力稳定，Low satiation risk，已成功用作Social Interaction载体 |
-| 音乐 | 3 | 3 | → | 效力稳定，适合活动间过渡 |
-| Bouncing ball | 4 | 4 | → | 效力稳定 |
-| Stickers | 5 | 5 | → | 仍为Low偏好，暂不适合代币系统 |
-| 积木 | 6 | — | ↓ | 兴趣进一步下降，移出候选列表 |
-| 小饼干（新增） | — | 3 | 新增 | 上课期间Mother带来，观察到强烈接近行为，正式纳入评估 |
+| Toy cars | 1 | 1 | Stable | Effectiveness stable, but showing satiation signs after >15 min continuous use (begins wheel-spinning rather than functional play) |
+| Bubbles | 2 | 2 | Stable | Effectiveness stable, low satiation risk, successfully used as social interaction vehicle |
+| Music | 3 | 3 | Stable | Effectiveness stable, suitable for activity transitions |
+| Bouncing ball | 4 | 4 | Stable | Effectiveness stable |
+| Stickers | 5 | 5 | Stable | Still low preference, not yet suitable for token system |
+| Blocks | 6 | - | Decreased | Interest further declined, removed from candidate list |
+| Small crackers (new) | - | 3 | New | Mother brought during session, strong approach behavior observed, formally added to assessment |
 
-### 更新后的效力分级
+### Updated Effectiveness Tiers
 
-| 等级 | reinforcer | 效力评分 | 饱和度预警 | 最佳使用场景 |
+| Tier | Reinforcer | Effectiveness | Satiation Risk | Best Use Case |
 |:---|:---|:---|:---|:---|
-| Top Tier | Toy cars (small race cars) | 9/10 | Medium (Weakens after >15 min continuous use） | DTT high-demand trials, new skill shaping |
-| Top Tier | Bubbles | 9/10 | Low（Low satiation risk） | Social Interaction诱发、NET自然情境 |
+| Top Tier | Toy cars (small race cars) | 9/10 | Medium (weakens after >15 min continuous use) | DTT high-demand trials, new skill shaping |
+| Top Tier | Bubbles | 9/10 | Low (low satiation risk) | Social interaction elicitation, NET natural environment |
 | Reserve | Music/songs ("Twinkle Star" etc.) | 7/10 | Low | Activity transitions, emotional regulation |
-| Reserve | 小饼干 | 7/10 | High（每次仅给1小块） | 仿说训练连续试次、快速reinforcement |
-| Reserve | Bouncing ball | 6/10 | 中 | Gross motor activities, breaks |
-| To Test | Stickers | To Assess | — | Token economy candidate（待建立配对价值） |
+| Reserve | Small crackers | 7/10 | High (give only 1 small piece at a time) | Echoic training continuous trials, rapid reinforcement |
+| Reserve | Bouncing ball | 6/10 | Medium | Gross motor activities, breaks |
+| To Test | Stickers | To assess | - | Token economy candidate (need to establish conditioned value through pairing) |
 
 ---
 
-## 四、reinforcer管理Recommendation
+## IV. Reinforcer Management Recommendations
 
-### Motivating Operation (MO)管理
+### Motivating Operation (MO) Management
 
-| 策略 | 具体操作 | 目的 |
+| Strategy | Specific Procedure | Purpose |
 |:---|:---|:---|
-| **饱和度控制** | 汽车玩具仅在教学时段使用，课间不自由接触 | 维持建立操作（EO） |
-| **轮换使用** | 同一节课内不连续使用同一reinforcer超过5个试次 | 防止饱和 |
-| **新鲜感维护** | 每两周引入1个新候选物品进行非正式偏好观察 | 保持reinforcer池的多样性 |
-| **配对训练** | 社会性赞美始终与物质reinforcer配对呈现 | 逐步建立社会性reinforcer的条件reinforcement价值 |
+| **Satiation control** | Toy cars used only during teaching periods, no free access during breaks | Maintain establishing operation (EO) |
+| **Rotation** | Do not use the same reinforcer for more than 5 consecutive trials in one session | Prevent satiation |
+| **Novelty maintenance** | Introduce 1 new candidate item every two weeks for informal preference observation | Maintain reinforcer pool diversity |
+| **Pairing training** | Always pair social praise with tangible reinforcers | Gradually build conditioned reinforcement value of social reinforcers |
 
-### reinforcement程序Recommendation
+### Reinforcement Schedule Recommendations
 
-| 阶段 | 程序 | 适用目标 |
+| Phase | Schedule | Applicable Goals |
 |:---|:---|:---|
-| 新技能习得 | CRF（连续reinforcement） | S1、S4、S7 等新目标 |
-| 技能巩固 | VR2→VR3 | 正确率达60%后过渡 |
-| 技能维持 | VR5+社会性reinforcement | 正确率达80%后过渡 |
-| generalization阶段 | 自然reinforcer+间歇社会性reinforcement | mastery后的generalization练习 |
+| New skill acquisition | CRF (Continuous Reinforcement) | S1, S4, S7 and other new targets |
+| Skill consolidation | VR2 -> VR3 | Transition when accuracy reaches 60% |
+| Skill maintenance | VR5 + social reinforcement | Transition when accuracy reaches 80% |
+| Generalization phase | Natural reinforcers + intermittent social reinforcement | Post-mastery generalization practice |
 
-> [!tip] 下次评估提醒
-> 3月中旬进行下一次MSWO复评。重点关注：
-> 1. 汽车玩具是否出现进一步饱和
-> 2. Stickers经过配对训练后偏好是否提升
-> 3. 社会性reinforcer（赞美+击掌）的独立效力是否增强
+> [!tip] Next Assessment Reminder
+> Conduct next MSWO review in mid-March. Key areas to monitor:
+> 1. Whether toy cars show further satiation
+> 2. Whether stickers show increased preference after pairing training
+> 3. Whether social reinforcers (praise + high-five) show increased independent effectiveness
 
 ---
 
-## 🔗 Related Files
+## Related Files
 
 - [[Client-Demo-Alex - Master Profile]]
 - [[Client-Demo-Alex - Intake Form]]

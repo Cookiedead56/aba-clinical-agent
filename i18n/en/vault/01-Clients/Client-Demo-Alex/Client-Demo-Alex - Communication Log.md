@@ -3,93 +3,93 @@ type: Communication Log
 created: 2026-01-15
 last_updated: 2026-02-20
 client: Client-Demo-Alex
-tags: [Communication Log]
+tags: [communication]
 ---
 
 # [[Client-Demo-Alex - Communication Log]]
 
-**个案代号**：Client-Demo-Alex
-**主要联系人**：Mother
-**Assigned Therapist**：Ms. Zhang
+**Client Code**: Client-Demo-Alex
+**Primary Contact**: Mother
+**Assigned Therapist**: Ms. Zhang
 
 ---
 
-## 沟通日志
+## Communication Log
 
-### 2026-02-20 | 第5周反馈（Milestone Report同步沟通）
+### 2026-02-20 | Week 5 Feedback (Milestone Report Joint Communication)
 
 | Item | Content |
 |:---|:---|
-| **沟通方式** | 面谈（IEP阶段复评） |
-| **参与人** | Mother、督导、Ms. Zhang |
-| **时长** | 40分钟 |
+| **Method** | In-person meeting (IEP milestone review) |
+| **Participants** | Mother, Supervisor, Ms. Zhang |
+| **Duration** | 40 minutes |
 
-**沟通内容**：
-1. 向Mother汇报入组5周以来的整体进展，展示 [[Client-Demo-Alex - Milestone Report]] 数据
-2. Mother对两词句Mand的进展表示惊喜："他在家也开始说'要饼干'了，之前只会拉我的手"
-3. 社交回避下降30%——Mother反馈周末带Alex去游乐场时，Alex虽然仍不主动找小朋友，但不再立刻跑开了
-4. 讨论了下阶段目标调整方向：增加同伴介入频率、引入"动词+名词"句式
-5. Mother提出希望了解如何在家练习社交技能——Recommendation从"和Mother轮流推车"开始
+**Content**:
+1. Presented 5-week progress to mother, shared [[Client-Demo-Alex - Milestone Report]] data
+2. Mother expressed surprise at two-word mand progress: "He's started saying 'want cracker' at home too - before he would just pull my hand"
+3. Social avoidance down 30% - mother reports that at the playground on weekends, while Alex still doesn't actively seek out other children, he no longer runs away immediately
+4. Discussed next-phase goal adjustments: increase peer-mediated intervention frequency, introduce "verb + noun" sentence patterns
+5. Mother asked about practicing social skills at home - recommended starting with "take turns pushing cars with mom"
 
-**家长情绪评估**：积极、有信心。从入组时的焦虑转变为谨慎乐观
+**Parent Emotional Assessment**: Positive, confident. Shifted from anxious at intake to cautiously optimistic
 
-**跟进事项**：
-- [ ] 提供家庭社交游戏清单给Mother
-- [ ] 邀请Father参加下次观摩课
+**Follow-up Items**:
+- [ ] Provide home social games checklist to mother
+- [ ] Invite father to attend next observation session
 
 ---
 
-### 2026-02-07 | 第3周家书
+### 2026-02-07 | Week 3 Family Letter
 
 | Item | Content |
 |:---|:---|
-| **沟通方式** | 微信发送家书 |
-| **参与人** | Mother |
+| **Method** | Sent via messaging app |
+| **Participants** | Mother |
 
-**沟通内容**：
-发送 [[2026-02-07 家书 - Client-Demo-Alex]]，重点分享Alex在传球游戏中首次递物给同伴的进步瞬间
+**Content**:
+Sent [[2026-02-07 Family Letter - Client-Demo-Alex]], highlighting Alex's first time offering an object to a peer during ball-passing game
 
-**家长反馈**：
-Mother回复："看到这个真的好感动，谢谢老师们。回家路上他还对我说了'Bubbles'，以前都是直接拉我走到Bubbles机旁边。"
+**Parent Feedback**:
+Mother replied: "So touching to read this, thank you to all the teachers. On the way home he even said 'bubble' to me - before he would just drag me to the bubble machine."
 
 ---
 
-### 2026-01-20 | 第1周家书
+### 2026-01-20 | Week 1 Family Letter
 
 | Item | Content |
 |:---|:---|
-| **沟通方式** | 微信发送家书 |
-| **参与人** | Mother |
+| **Method** | Sent via messaging app |
+| **Participants** | Mother |
 
-**沟通内容**：
-发送首周适应期家书，告知MotherAlex在机构的适应情况。重点传达：Alex对汽车玩具和Bubbles表现出强烈偏好，我们将以此为切入点建立教学配合关系
+**Content**:
+Sent first-week adaptation letter informing mother about Alex's adjustment at the agency. Key message: Alex showed strong preferences for toy cars and bubbles, which we'll use as entry points for building instructional rapport
 
-**家长反馈**：
-Mother回复表示感谢，问了几个关于在家配合的问题，Ms. Zhang逐一回复
+**Parent Feedback**:
+Mother replied with thanks, asked several questions about home cooperation, Ms. Zhang responded to each
 
 ---
 
-### 2026-01-15 | IEP制定会议
+### 2026-01-15 | IEP Development Meeting
 
 | Item | Content |
 |:---|:---|
-| **沟通方式** | 面谈 |
-| **参与人** | Mother、督导、Ms. Zhang |
-| **时长** | 60分钟 |
+| **Method** | In-person meeting |
+| **Participants** | Mother, Supervisor, Ms. Zhang |
+| **Duration** | 60 minutes |
 
-**沟通内容**：
-详见 [[Client-Demo-Alex - IEP-2026-01-15]] 会议记录
+**Content**:
+See [[Client-Demo-Alex - IEP-2026-01-15]] meeting record
 
-**关键共识**：
-1. Social Interaction为首要优先目标
-2. Mother理解并同意FCT替代行为训练路线
-3. 家庭generalization任务从简单的两词句Mand练习开始
+**Key Agreements**:
+1. Social interaction as top priority goal
+2. Mother understands and agrees to FCT replacement behavior training pathway
+3. Home generalization task starting with simple two-word mand practice
 
 ---
 
-## 🔗 Related Files
+## Related Files
 
 - [[Client-Demo-Alex - Master Profile]]
 - [[Client-Demo-Alex - IEP-2026-01-15]]
 - [[Client-Demo-Alex - Milestone Report]]
-- `05-Communication/Client-Demo-Alex - Communication Log/` — 家书存档目录
+- `05-Communication/Client-Demo-Alex - communication-log/` - Family letter archive

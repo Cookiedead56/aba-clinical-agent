@@ -2,139 +2,139 @@
 type: Skill Assessment
 created: 2026-01-12
 client: Client-Demo-Alex
-tags: [评估, VB-MAPP]
+tags: [assessment, VB-MAPP]
 ---
 
 # [[Client-Demo-Alex - Skill Assessment]]
 
-**Assessment Tool**：VB-MAPP（Verbal Behavior Milestones Assessment and Placement Program）
-**Assessment Date**：2026-01-12
-**评估人**：Ms. Zhang（在督导指导下完成）
-**情报源**：[[Client-Demo-Alex - Intake Form]] | [[Client-Demo-Alex - Master Profile]]
+**Assessment Tool**: VB-MAPP (Verbal Behavior Milestones Assessment and Placement Program)
+**Assessment Date**: 2026-01-12
+**Assessor**: Ms. Zhang (completed under supervisor guidance)
+**Sources**: [[Client-Demo-Alex - Intake Form]] | [[Client-Demo-Alex - Master Profile]]
 
 ---
 
-## 一、Milestones Assessment（Milestones Assessment）
+## I. Milestones Assessment
 
-**总分：65 / 170**（第二阶段早期，约18-30月龄发展水平）
+**Total Score: 65 / 170** (Early Level 2, approximately 18-30 month developmental level)
 
-### 详细领域得分
+### Detailed Domain Scores
 
-| 领域 | 得分 | 满分 | 阶段定位 | 临床解读 |
+| Domain | Score | Max | Level | Clinical Interpretation |
 |:---|:---|:---|:---|:---|
-| **Mand（提要求）** | 7 | 10 | Level 2 中期 | 以单词Mand为主（"要""车""Bubbles"），动机强时频率可达5次/小时；缺少Two-word combinations（如"要车车"），缺少缺失物Mand |
-| **Tact（命名）** | 5 | 10 | Level 2 早期 | 能命名约15-20个常见物品，但Very few spontaneous tacts；需视觉呈现+口语辅助才能产出；动作命名和属性命名均缺失 |
-| **Listener Responding（听者反应）** | 6 | 10 | Level 2 早期 | 熟悉一步指令回应约50%（"过来""坐下"），两步指令None法完成；LRFFC（按特征/功能/类别找物）处于萌芽期 |
-| **VP/MTS（视觉配对）** | 8 | 10 | Level 2 后期 | 相同配对稳定掌握，非相同配对（如实物-图片配对）约80%正确率；block design模仿良好；为相对Strengths领域 |
-| **Play（游戏）** | 4 | 10 | Level 1-2 过渡 | 功能性游戏为主（推车、搭2-3块积木）；None假想游戏；游戏种类单一，重复旋转车轮行为明显 |
-| **Social（社交）** | 3 | 10 | Level 1 后期 | None自发同伴互动；仅在成人High辅助下短暂平行游戏；同伴靠近时出现回避；对同伴名字None回应 |
-| **Imitation（模仿）** | 7 | 10 | Level 2 中期 | 大动作模仿良好（拍手、举手）；精细动作模仿约60%（捏、指）；口腔动作模仿尚可，为仿说训练奠定基础 |
-| **Echoic（仿说）** | 8 | 10 | Level 2 后期 | 单词仿说准确率约70%；两词短语仿说约40%；CV/CVC/CVCV音节结构基本掌握；语音清晰度Moderate |
-| **LRFFC（按特征/功能/类别找物）** | 4 | 10 | Level 2 早期 | 按功能找物（"哪个用来喝水"）约30%正确；按特征找物（"哪个有轮子"）约20%；按类别找物尚未建立 |
-| **IV（语内）** | 3 | 10 | Level 1 后期 | None法回答简单社交问题（"你叫什么名字"）；None法进行填空式对话；FFC语内回应处于萌芽期 |
-| **Group（集体技能）** | 3 | 10 | Level 1 后期 | 集体指令首次回应率约30%；None法在小组Moderate待轮流；集体活动持续参与时间约2-3分钟 |
-| **Linguistic Structure（语言结构）** | 4 | 10 | Level 2 早期 | 以单词为主要表达单位；偶见两词组合但不稳定；名词+动词组合萌芽期（如"要吃"） |
-| **Reading（阅读）** | 1 | 5 | Level 1 | 能配对3-5个常见汉字（自己名字中的字）；None朗读能力 |
-| **Writing（书写）** | 1 | 5 | Level 1 | 能持笔涂鸦；None法模仿书写笔画 |
-| **Math（数学）** | 2 | 5 | Level 1 | 能rote count至5；能一一对应数1-3个物品；None数量概念 |
+| **Mand (Requesting)** | 7 | 10 | Level 2 Mid | Primarily single-word mands ("want" "car" "bubble"), frequency reaches 5/hr when motivated; lacks two-word combinations (e.g., "want car"), lacks missing-item mands |
+| **Tact (Naming)** | 5 | 10 | Level 2 Early | Can name approximately 15-20 common objects, but very few spontaneous tacts; requires visual presentation + verbal prompt to produce; action and attribute naming both absent |
+| **Listener Responding** | 6 | 10 | Level 2 Early | Familiar one-step instructions approximately 50% compliance ("come here" "sit down"), cannot complete two-step instructions; LRFFC (by feature/function/category) emerging |
+| **VP/MTS (Visual Perceptual)** | 8 | 10 | Level 2 Late | Identical matching stable, non-identical matching (object-to-picture) approximately 80% correct; block design imitation good; relative strength area |
+| **Play** | 4 | 10 | Level 1-2 Transition | Primarily functional play (pushing cars, stacking 2-3 blocks); no pretend play; limited variety, repetitive wheel-spinning behavior noted |
+| **Social** | 3 | 10 | Level 1 Late | No spontaneous peer interaction; only brief parallel play with high adult support; avoidance when peers approach; no response to peer names |
+| **Imitation** | 7 | 10 | Level 2 Mid | Gross motor imitation good (clapping, raising hands); fine motor approximately 60% (pinching, pointing); oral motor adequate, provides foundation for echoic training |
+| **Echoic** | 8 | 10 | Level 2 Late | Single-word accuracy approximately 70%; two-word phrase approximately 40%; CV/CVC/CVCV syllable structures basically mastered; moderate speech clarity |
+| **LRFFC** | 4 | 10 | Level 2 Early | By function ("which one for drinking") approximately 30% correct; by feature ("which has wheels") approximately 20%; by category not yet established |
+| **Intraverbal (IV)** | 3 | 10 | Level 1 Late | Cannot answer simple social questions ("What is your name?"); cannot engage in fill-in-the-blank conversation; FFC intraverbal responding emerging |
+| **Group** | 3 | 10 | Level 1 Late | Group instruction first-response rate approximately 30%; cannot wait for turns in group; sustained group participation approximately 2-3 minutes |
+| **Linguistic Structure** | 4 | 10 | Level 2 Early | Single words as primary expression unit; occasional two-word combinations but unstable; noun+verb combinations emerging (e.g., "want eat") |
+| **Reading** | 1 | 5 | Level 1 | Can match 3-5 common characters (from own name); no reading ability |
+| **Writing** | 1 | 5 | Level 1 | Can hold pen and scribble; cannot imitate writing strokes |
+| **Math** | 2 | 5 | Level 1 | Can rote count to 5; can count 1-3 objects with one-to-one correspondence; no number concepts |
 
-### Milestones Assessment雷达图摘要
+### Milestones Assessment Radar Summary
 
 ```
-Echoic     ████████░░ 8/10
-VP/MTS     ████████░░ 8/10
-Imitation  ███████░░░ 7/10
-Mand       ███████░░░ 7/10
-Listener   ██████░░░░ 6/10
-Tact       █████░░░░░ 5/10
-Linguistic ████░░░░░░ 4/10
-Play       ████░░░░░░ 4/10
-LRFFC      ████░░░░░░ 4/10
-Social     ███░░░░░░░ 3/10
-IV         ███░░░░░░░ 3/10
-Group      ███░░░░░░░ 3/10
+Echoic     ████████-- 8/10
+VP/MTS     ████████-- 8/10
+Imitation  ███████--- 7/10
+Mand       ███████--- 7/10
+Listener   ██████---- 6/10
+Tact       █████----- 5/10
+Linguistic ████------ 4/10
+Play       ████------ 4/10
+LRFFC      ████------ 4/10
+Social     ███------- 3/10
+IV         ███------- 3/10
+Group      ███------- 3/10
 ```
 
 ---
 
-## 二、Barriers Assessment（Barriers Assessment）
+## II. Barriers Assessment
 
-**总分：38 / 96**（Moderate障碍水平）
+**Total Score: 38 / 96** (Moderate barrier level)
 
-| 障碍项目 | 得分 | 满分 | 严重度 | 说明 |
+| Barrier Item | Score | Max | Severity | Description |
 |:---|:---|:---|:---|:---|
-| 问题行为（负reinforcement） | 2 | 4 | 中 | 任务Escape行为（推材料、离座） |
-| 问题行为（正reinforcement） | 1 | 4 | Low | 偶有争抢玩具 |
-| 教学控制缺失 | 2 | 4 | 中 | 配合度取决于任务偏好程度 |
-| 缺乏/不足的 Mand 技能 | 2 | 4 | 中 | Mand句式单一，缺乏多种Mand类型 |
-| 缺乏/不足的 Tact 技能 | 3 | 4 | High | Very few spontaneous tacts，词汇量有限 |
-| 缺乏/不足的 Echoic 技能 | 1 | 4 | Low | 仿说为相对Strengths |
-| 缺乏/不足的模仿技能 | 1 | 4 | Low | 模仿为相对Strengths |
-| 缺乏/不足的 VP/MTS 技能 | 1 | 4 | Low | 视觉配对为相对Strengths |
-| 缺乏/不足的 Listener 技能 | 2 | 4 | 中 | 复杂指令和LRFFC明显不足 |
-| 缺乏/不足的语内技能 | 3 | 4 | High | 对话和语内FFC基本缺失 |
-| 缺乏/不足的社交技能 | 3 | 4 | High | 同伴互动几乎为零 |
-| 即时仿说/刻板言语 | 1 | 4 | Low | 偶见Delayed仿说 |
-| **Escape困难任务** | **3** | **4** | **High** | 非偏好任务中High频出现Escape行为 |
-| **社交恐惧/退缩** | **3** | **4** | **High** | 社交情境中系统性回避 |
-| **依赖辅助** | **3** | **4** | **High** | 辅助依赖明显，独立反应率Low |
-| 自我刺激行为 | 2 | 4 | 中 | 旋转车轮、视觉审视 |
-| 注意力/感觉障碍 | 2 | 4 | 中 | 视觉注意力短，听觉注意力更短 |
-| 动机障碍 | 1 | 4 | Low | reinforcer偏好明确但范围窄 |
-| generalization障碍 | 2 | 4 | 中 | 技能跨人、跨环境generalization困难 |
+| Problem behavior (neg reinf) | 2 | 4 | Moderate | Task avoidance (pushing materials, leaving seat) |
+| Problem behavior (pos reinf) | 1 | 4 | Low | Occasional toy-grabbing |
+| Instructional control deficit | 2 | 4 | Moderate | Compliance depends on task preference level |
+| Impaired mand skills | 2 | 4 | Moderate | Limited mand sentence types, lacks diverse mand forms |
+| Impaired tact skills | 3 | 4 | High | Very few spontaneous tacts, limited vocabulary |
+| Impaired echoic skills | 1 | 4 | Low | Echoic is a relative strength |
+| Impaired imitation skills | 1 | 4 | Low | Imitation is a relative strength |
+| Impaired VP/MTS skills | 1 | 4 | Low | Visual matching is a relative strength |
+| Impaired listener skills | 2 | 4 | Moderate | Complex instructions and LRFFC significantly impaired |
+| Impaired intraverbal skills | 3 | 4 | High | Conversation and intraverbal FFC essentially absent |
+| Impaired social skills | 3 | 4 | High | Near-zero peer interaction |
+| Immediate echolalia/stereotypy | 1 | 4 | Low | Occasional delayed echolalia |
+| **Escape difficult tasks** | **3** | **4** | **High** | High-frequency avoidance during non-preferred tasks |
+| **Social fear/withdrawal** | **3** | **4** | **High** | Systematic avoidance in social situations |
+| **Prompt dependency** | **3** | **4** | **High** | Significant prompt dependency, low independent response rate |
+| Self-stimulation | 2 | 4 | Moderate | Wheel spinning, visual inspection |
+| Attention/sensory issues | 2 | 4 | Moderate | Short visual attention, even shorter auditory attention |
+| Motivation issues | 1 | 4 | Low | Clear but narrow reinforcer preferences |
+| Generalization issues | 2 | 4 | Moderate | Difficulty generalizing skills across people and settings |
 
-### 障碍优先排序
+### Barrier Priority Ranking
 
-> [!warning] 需优先干预的障碍（得分3分及以上）
-> 1. **Escape困难任务（3分）**：严重影响教学效率和新技能习得
-> 2. **社交恐惧/退缩（3分）**：制约社交目标的推进
-> 3. **依赖辅助（3分）**：阻碍技能独立化和generalization
-> 4. **缺乏社交技能（3分）**：同伴互动基础薄弱
-> 5. **缺乏语内技能（3分）**：对话能力缺失
+> [!warning] Priority Barriers (Score 3 or above)
+> 1. **Escape difficult tasks (3)**: Severely impacts teaching efficiency and new skill acquisition
+> 2. **Social fear/withdrawal (3)**: Constrains social goal progression
+> 3. **Prompt dependency (3)**: Blocks skill independence and generalization
+> 4. **Impaired social skills (3)**: Weak foundation for peer interaction
+> 5. **Impaired intraverbal skills (3)**: Conversation ability absent
 
 ---
 
-## 三、Transition Assessment（Transition Assessment）
+## III. Transition Assessment
 
-**总分：35 / 90**（尚不具备融合安置条件）
+**Total Score: 35 / 90** (Not yet ready for inclusion placement)
 
-### 关键指标
+### Key Indicators
 
-| 评估维度 | 状态 | 说明 |
+| Dimension | Status | Description |
 |:---|:---|:---|
-| 课堂常规 | ⚠️ 部分就位 | 能在1:1环境下坐3-5分钟，小组环境下<2分钟 |
-| 集体指令跟随 | ❌ 不足 | 首次回应率约30%，Delayed回应率约50% |
-| 同伴互动 | ❌ 不足 | None自发互动，被动回应极少 |
-| 自理技能 | ⚠️ 部分就位 | 能独立进食（用勺），如厕需提醒 |
-| 情绪调节 | ⚠️ 部分就位 | 轻度挫折可自行恢复，中度挫折需成人介入 |
-| 学业准备 | ❌ 不足 | 识字和数学均处于萌芽期 |
+| Classroom routines | Partially ready | Can sit 3-5 min in 1:1, <2 min in group |
+| Group instruction following | Insufficient | First-response rate approximately 30%, delayed response approximately 50% |
+| Peer interaction | Insufficient | No spontaneous interaction, minimal passive responses |
+| Self-care skills | Partially ready | Can eat independently (with spoon), toileting needs reminders |
+| Emotional regulation | Partially ready | Mild frustration self-resolves, moderate frustration requires adult intervention |
+| Academic readiness | Insufficient | Literacy and math both at emerging stage |
 
-### 转衔Recommendation
-当前Recommendation继续在ABA密集干预环境中进行训练，待以下指标mastery后可考虑融合过渡：
-1. 集体指令首次回应率 ≥ 70%
-2. 同伴互动每30分钟 ≥ 3次自发发起
-3. 集体活动持续参与 ≥ 10分钟
-
----
-
-## 四、评估总结与干预Recommendation
-
-### 核心发现
-1. **学习通道**：视觉通道（VP/MTS 8/10）> 听觉通道（Listener 6/10），Recommendation教学中多用视觉支持
-2. **语言切入点**：仿说能力（Echoic 8/10）是语言扩展的核心杠杆，可通过仿说转Mand/Tact策略快速积累词汇
-3. **最大瓶颈**：社交技能（Social 3/10）和对话能力（IV 3/10）严重落后，需从零阶梯度搭建
-4. **行为障碍**：Escape功能的问题行为是教学效率的最大阻碍，需优先通过FBA确定干预方案
-
-### Recommendation干预优先序列
-1. 完成FBA分析 → [[Client-Demo-Alex - FBA Report]]
-2. 建立教学控制（pairing + reinforcer管理）
-3. 利用仿说Strengths快速扩展Mand词汇（单词→两词句）
-4. 社交技能从"接受同伴在场"开始阶梯式塑形
-5. 集体指令跟随从1:1嵌入式指令过渡到小组情境
+### Transition Recommendations
+Currently recommend continuing training in ABA intensive intervention setting. Consider inclusion transition when the following indicators are met:
+1. Group instruction first-response rate >= 70%
+2. Peer interaction >= 3 spontaneous initiations per 30 minutes
+3. Sustained group participation >= 10 minutes
 
 ---
 
-## 🔗 Related Files
+## IV. Assessment Summary & Intervention Recommendations
+
+### Key Findings
+1. **Learning channel**: Visual channel (VP/MTS 8/10) > Auditory channel (Listener 6/10); recommend heavy use of visual supports in instruction
+2. **Language entry point**: Echoic ability (8/10) is the core lever for language expansion; echoic-to-mand/tact transfer strategies can rapidly build vocabulary
+3. **Greatest bottleneck**: Social skills (Social 3/10) and conversation ability (IV 3/10) severely behind, need to build from ground-level scaffolding
+4. **Behavioral barriers**: Escape-function problem behaviors are the biggest obstacle to teaching efficiency; FBA-driven intervention plan needed as priority
+
+### Recommended Intervention Sequence
+1. Complete FBA analysis -> [[Client-Demo-Alex - FBA Report]]
+2. Establish instructional control (pairing + reinforcer management)
+3. Leverage echoic strength to rapidly expand mand vocabulary (single-word -> two-word)
+4. Social skills starting from "tolerating peer presence" with graduated shaping
+5. Group instruction following transitioning from 1:1 embedded instructions to group setting
+
+---
+
+## Related Files
 
 - [[Client-Demo-Alex - Master Profile]]
 - [[Client-Demo-Alex - Intake Form]]

@@ -1,167 +1,171 @@
 ---
-type: FBA分析
+type: FBA Report
 created: 2026-01-15
 client: Client-Demo-Alex
-tags: [FBA, 行为分析]
+tags: [FBA, behavior-analysis]
 ---
 
 # [[Client-Demo-Alex - FBA Report]]
 
-**分析日期**：2026-01-15
-**分析人**：Ms. Zhang（督导审核）
-**情报源**：[[Client-Demo-Alex - Skill Assessment]] | [[Client-Demo-Alex - Intake Form]]
+**Analysis Date**: 2026-01-15
+**Analyst**: Ms. Zhang (supervisor reviewed)
+**Sources**: [[Client-Demo-Alex - Skill Assessment]] | [[Client-Demo-Alex - Intake Form]]
 
 ---
 
-## 一、靶行为定义
+## I. Target Behavior Definition
 
-### 目标行为：社交回避行为
+### Target Behavior: Social Avoidance
 
-**Operational Definition**：在集体活动或同伴互动情境中，Alex离开当前位置（站起并走开/跑开至少2米以上），脱离正在进行的Social Interaction或集体活动。不包括在自由活动时间的正常移动。
+**Operational Definition**: During group activities or peer interaction situations, Alex leaves his current position (stands up and walks/runs at least 2 meters away), disengaging from the ongoing social interaction or group activity. Does not include normal movement during free play time.
 
-**测量方法**：频率记录法（次/30分钟集体活动时段）
-**基线数据**：4-5次/30分钟（连续3天观察均值）
-**严重度评级**：Moderate——不会造成自伤或他伤，但严重阻碍社交技能习得和Group Participation
+**Measurement Method**: Frequency recording (occurrences per 30-minute group activity period)
+**Baseline Data**: 4-5 times/30 minutes (average across 3 consecutive days of observation)
+**Severity Rating**: Moderate - does not cause self-injury or harm to others, but severely impedes social skill acquisition and group participation
 
 ---
 
-## 二、ABC 数据记录
+## II. ABC Data Records
 
-### 观察记录 1
+### Observation Record 1
 
 | Item | Content |
 |:---|:---|
-| **日期** | 2026-01-11 |
-| **时间** | 10:15 |
-| **环境** | 团体游戏时间（4名儿童+2名教师） |
-| **前因 (A)** | 老师组织"传球游戏"，要求Alex把球递给旁边的同伴小雨。老师给出口语指令："Alex，把球给小雨。"同时用手势指向小雨 |
-| **行为 (B)** | AlexLow头看球约2秒，未看向小雨，随后迅速站起，抱着球跑向教室角落的玩具柜旁 |
-| **后果 (C)** | 老师走过去尝试引导他回来，但Alex背对老师蹲下。老师等待约30秒后放弃，让其他小朋友继续游戏。Alex独自在角落玩球约3分钟 |
-| **功能初判** | Escape——成功Escape了与同伴的直接Social Interaction要求 |
+| **Date** | 2026-01-11 |
+| **Time** | 10:15 |
+| **Setting** | Group play time (4 children + 2 teachers) |
+| **Antecedent (A)** | Teacher organized "ball passing game," asking Alex to pass the ball to the peer next to him. Teacher gave verbal instruction: "Alex, give the ball to your friend," while pointing with a gesture |
+| **Behavior (B)** | Alex looked down at the ball for approximately 2 seconds, did not look toward the peer, then quickly stood up and ran to the toy cabinet corner of the classroom while holding the ball |
+| **Consequence (C)** | Teacher walked over to guide him back, but Alex squatted down facing away. After approximately 30 seconds, teacher gave up and let other children continue. Alex played alone with the ball in the corner for approximately 3 minutes |
+| **Initial Function** | Escape - successfully escaped the direct peer social interaction demand |
 
-### 观察记录 2
-
-| Item | Content |
-|:---|:---|
-| **日期** | 2026-01-12 |
-| **时间** | 14:30 |
-| **环境** | 音乐律动课（6名儿童+1名教师+1名助教） |
-| **前因 (A)** | 老师播放音乐，要求所有小朋友手拉手围成圈跳舞。助教尝试拉Alex的手 |
-| **行为 (B)** | Alex抽回手，身体后缩，随后转身跑向门口方向，在门边站住 |
-| **后果 (C)** | 助教没有追过去，继续带领其他儿童跳舞。Alex在门边站了约2分钟，观望其他小朋友跳舞，但没有加入 |
-| **功能初判** | Escape——成功Escape了身体接触+集体社交的双重要求 |
-
-### 观察记录 3
+### Observation Record 2
 
 | Item | Content |
 |:---|:---|
-| **日期** | 2026-01-13 |
-| **时间** | 11:00 |
-| **环境** | 自由游戏时间（3名儿童在积木区） |
-| **前因 (A)** | 同伴小明主动走到Alex旁边，拿起一块积木说"一起搭"，并把积木递向Alex |
-| **行为 (B)** | Alex短暂看了一眼积木（约1秒），随后抱起自己面前的几块积木，站起来走到教室另一端的角落 |
-| **后果 (C)** | 小明愣了一下，转身去找其他小朋友。Alex在角落独自搭积木约5分钟，None人打扰 |
-| **功能初判** | Escape——在None成人要求的自然社交情境中同样出现回避，表明Escape对象为"Social Interaction本身"而非"成人指令" |
+| **Date** | 2026-01-12 |
+| **Time** | 14:30 |
+| **Setting** | Music movement class (6 children + 1 teacher + 1 aide) |
+| **Antecedent (A)** | Teacher played music, asked all children to hold hands in a circle and dance. Aide attempted to hold Alex's hand |
+| **Behavior (B)** | Alex withdrew his hand, body pulled back, then turned and ran toward the door, stopping at the doorway |
+| **Consequence (C)** | Aide did not chase, continued leading other children in dancing. Alex stood at the doorway for approximately 2 minutes, watching other children dance but not joining |
+| **Initial Function** | Escape - successfully escaped the dual demand of physical contact + group social interaction |
 
----
+### Observation Record 3
 
-## 三、Function Hypothesis
-
-### 主要假设：**EscapeSocial Interaction的High难度要求（social negative reinforcement）**
-
-**证据链**：
-1. **前因共性**：三次记录中，行为均发生在需要与他人（同伴或成人引导的同伴互动）进行直接社交接触的情境
-2. **后果共性**：逃跑后均成功脱离社交情境，获得独处/Low社交刺激的环境
-3. **排除正reinforcement**：逃跑后未获得任何可见的关注、物品或活动reinforcement
-4. **跨情境一致性**：在成人指令式（记录1、2）和同伴自然发起式（记录3）情境中均出现
-5. **Motivating Operation (MO)分析**：Social Interaction对Alex而言是"厌恶刺激"——社交技能严重不足（Social 3/10）导致社交情境中持续经历"失败体验"，形成了条件化的Escape反应
-
-### 排除的竞争假设
-
-| 假设 | 排除理由 |
+| Item | Content |
 |:---|:---|
-| Attention seeking | 逃跑后未出现回头看成人、哭闹等寻求注意的行为 |
-| 自动reinforcement | 逃跑后从事的活动（独自玩球/搭积木）并非自我刺激行为 |
-| 获取物品 | 逃跑方向不固定，非指向特定物品 |
+| **Date** | 2026-01-13 |
+| **Time** | 11:00 |
+| **Setting** | Free play time (3 children in block area) |
+| **Antecedent (A)** | Peer proactively approached Alex, picked up a block and said "let's build together," offering the block to Alex |
+| **Behavior (B)** | Alex briefly glanced at the block (approximately 1 second), then picked up the blocks in front of him, stood up and walked to the far corner of the classroom |
+| **Consequence (C)** | Peer looked confused, turned to find another child. Alex built blocks alone in the corner for approximately 5 minutes without interruption |
+| **Initial Function** | Escape - avoidance occurred in a natural social context without adult demands, indicating the escape target is "social interaction itself" rather than "adult instructions" |
 
 ---
 
-## 四、competing behavior model
+## III. Function Hypothesis
+
+### Primary Hypothesis: **Escape from High-Demand Social Interaction Requirements (Social Negative Reinforcement)**
+
+**Evidence Chain**:
+1. **Antecedent commonality**: Across all three records, behavior occurred in situations requiring direct social contact with others (peers or adult-mediated peer interaction)
+2. **Consequence commonality**: Running resulted in successfully exiting the social situation, obtaining solitary/low-social-stimulation environment
+3. **Positive reinforcement ruled out**: No visible attention, tangible, or activity reinforcement obtained after running
+4. **Cross-situation consistency**: Occurred in both adult-directed (Records 1, 2) and peer-initiated natural (Record 3) situations
+5. **Motivating Operation analysis**: Social interaction is an "aversive stimulus" for Alex - severe social skill deficits (Social 3/10) result in continuous "failure experiences" in social contexts, forming a conditioned avoidance response
+
+### Ruled Out Competing Hypotheses
+
+| Hypothesis | Reason for Exclusion |
+|:---|:---|
+| Attention seeking | No looking back at adults, crying, or other attention-seeking behaviors after running |
+| Automatic reinforcement | Post-escape activities (playing with ball/building blocks alone) are not self-stimulatory |
+| Tangible access | Running direction is inconsistent, not toward specific items |
+
+---
+
+## IV. Competing Behavior Model
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                    competing behavior model图                         │
-├─────────────────────────────────────────────────────────┤
-│                                                         │
-│   【期望替代行为】                                       │
-│    用Language Expression"我要休息"  ──→  获得短暂休息（30秒）       │
-│    或用手势示意暂停          然后以降Low难度的方式重新加入  │
-│         ↑                                               │
-│         │                                               │
-│   【前因/Motivating Operation (MO)】        【目标问题行为】               │
-│    Social Interaction要求     ──→    跑开/逃离现场  ──→  Escape社交  │
-│    (同伴接近/集体指令/            ↓          互动要求     │
-│     要求分享/身体接触)     (维持率：90%+)    (负reinforcement)     │
-│         │                                               │
-│         ↓                                               │
-│   【期望的替代技能】                                     │
-│    在降Low难度的社交情境中    ──→  获得社交成功体验        │
-│    完成简单互动（如递物）         + High效reinforcement              │
-│    (当前能力：约20%)                                     │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
++-----------------------------------------------------------+
+|                  Competing Behavior Model                  |
++-----------------------------------------------------------+
+|                                                            |
+|   [Desired Replacement Behavior]                           |
+|    Use language "I need a break"  -->  Obtain brief break  |
+|    or gesture to indicate pause       (30 sec) then        |
+|         ^                             rejoin at lower      |
+|         |                             difficulty           |
+|                                                            |
+|   [Antecedent/MO]              [Target Problem Behavior]   |
+|    Social interaction   -->    Run away/flee  -->  Escape  |
+|    demand                            |          social     |
+|    (peer approach/group              v          demands    |
+|     instruction/sharing/       (maintenance               |
+|     physical contact)           rate: 90%+)  (neg reinf)  |
+|         |                                                  |
+|         v                                                  |
+|   [Desired Alternative Skill]                              |
+|    Complete simple interaction  -->  Obtain social success  |
+|    in reduced-difficulty setting     + high-quality reinf  |
+|    (e.g., offering object)                                 |
+|    (current ability: ~20%)                                 |
+|                                                            |
++-----------------------------------------------------------+
 ```
 
 ---
 
-## 五、干预Recommendation
+## V. Intervention Recommendations
 
-### 1. antecedent manipulation策略（Antecedent Interventions）
+### 1. Antecedent Interventions
 
-| 策略 | 具体操作 | 原理 |
+| Strategy | Specific Procedure | Principle |
 |:---|:---|:---|
-| **降Low社交难度梯度** | Social Interaction从"成人-儿童1:1"开始，逐步过渡到"成人+1同伴"，最后到"小组" | 减弱厌恶刺激（MO弱化），降LowEscape动机 |
-| **提前预告+视觉提示** | 活动前用视觉流程卡告知"先玩3分钟，然后休息"，降Low不确定性 | 建立可预测性，减少焦虑引发的Escape |
-| **High偏好活动嵌入** | 在Social Interaction中嵌入Alex的Top Tierreinforcer（汽车、Bubbles），以偏好活动为载体进行社交 | 提High接近社交情境的动机（对抗性MO） |
-| **非偶联reinforcement（NCR）** | 在集体活动开始前，先给予2分钟自由接触偏好物品 | 降LowEscape动机的建立操作 |
+| **Reduce social demand gradient** | Start social interaction from "adult-child 1:1," gradually transition to "adult + 1 peer," then to "small group" | Weaken aversive stimulus (MO attenuation), reduce escape motivation |
+| **Advance notice + visual supports** | Use visual schedule cards before activity: "play 3 minutes, then break," reducing unpredictability | Establish predictability, reduce anxiety-triggered escape |
+| **Embed high-preference activities** | Embed Alex's top-tier reinforcers (cars, bubbles) in social interactions, using preferred activities as social vehicles | Increase approach motivation for social situations (counteracting MO) |
+| **Non-contingent reinforcement (NCR)** | Before group activities begin, provide 2 minutes of free access to preferred items | Reduce establishing operation for escape motivation |
 
-### 2. 功能性替代行为训练（FCT）
+### 2. Functional Communication Training (FCT)
 
-**目标替代行为**：教Alex使用"我要休息"（口语或图片辅助沟通）来替代跑开
+**Target Replacement Behavior**: Teach Alex to use "I need a break" (verbal or picture-assisted communication) to replace running away
 
-| 阶段 | 教学步骤 | prompt hierarchy | mastery标准 |
+| Phase | Teaching Step | Prompt Level | Mastery Criterion |
 |:---|:---|:---|:---|
-| 1 | 在1:1情境中教"我要休息"的手势/卡片 | 全辅助→手势辅助 | 独立使用3/5试次 |
-| 2 | 在模拟社交情境中使用 | 手势辅助→口语提示 | 独立使用4/5试次 |
-| 3 | 在真实小组情境中使用 | 口语提示→Delayed辅助 | 自发使用3/5机会 |
-| 4 | generalization到多种社交情境 | None辅助 | 跨环境一致性≥80% |
+| 1 | Teach "I need a break" gesture/card in 1:1 setting | Full prompt -> gestural | Independent use 3/5 trials |
+| 2 | Use in simulated social situations | Gestural -> verbal prompt | Independent use 4/5 trials |
+| 3 | Use in real group situations | Verbal prompt -> delayed | Spontaneous use 3/5 opportunities |
+| 4 | Generalize across social situations | No prompt | Cross-environment consistency >= 80% |
 
-### 3. 差别reinforcement策略（DRA）
+### 3. Differential Reinforcement (DRA)
 
-- **替代行为"我要休息"**：立即给予30秒休息（功能性reinforcement），休息后以更Low难度重新引导参与
-- **跑开行为**：平静地引导回原位，不提供额外关注或安慰（消退），以最Low辅助完成一个简单社交动作后才可离开
-- **主动参与社交**：High质量reinforcement（Top Tier+社交性赞美"你跟小朋友一起玩了！太棒了！"）
+- **Replacement behavior "I need a break"**: Immediately provide 30-second break (functional reinforcement), then re-engage at lower difficulty after break
+- **Running behavior**: Calmly guide back to original position, no additional attention or comfort (extinction), must complete one simple social action with minimum prompting before leaving
+- **Spontaneous social participation**: High-quality reinforcement (top-tier reinforcer + social praise "You played with your friend! Amazing!")
 
-### 4. 环境重构
+### 4. Environmental Restructuring
 
-- 集体活动座位安排：初期安排在边缘位置（靠近出口方向的安全感），逐步向中心过渡
-- 同伴选择：优先安排性格温和、社交节奏慢的同伴作为互动对象
-- 活动时长：初期集体活动从5分钟起步，每周递增2分钟
+- Seating arrangement: Initially place at edge positions (near exit for sense of security), gradually transition toward center
+- Peer selection: Prioritize gentle, slow-paced peers as interaction partners
+- Activity duration: Start group activities at 5 minutes, increase by 2 minutes weekly
 
 ---
 
-## 六、数据决策规则
+## VI. Data Decision Rules
 
-| 条件 | 决策 |
+| Condition | Decision |
 |:---|:---|
-| 连续3次课Escape频率下降 ≥ 30% | 维持当前方案 |
-| 连续5次课None明显变化（±10%） | 召开团队会议，调整antecedent manipulation策略或重新评估Function Hypothesis |
-| 替代行为"我要休息"使用率 ≥ 50% | 开始逐步减薄休息时长（30秒→20秒→10秒） |
-| Escape频率降至 ≤ 1次/30分钟 | 开始社交难度阶梯升级 |
+| Escape frequency decreases >= 30% across 3 consecutive sessions | Maintain current plan |
+| No significant change (+/- 10%) across 5 consecutive sessions | Convene team meeting, adjust antecedent strategies or re-evaluate function hypothesis |
+| Replacement behavior "I need a break" usage rate >= 50% | Begin thinning break duration (30 sec -> 20 sec -> 10 sec) |
+| Escape frequency drops to <= 1 time/30 min | Begin social demand ladder upgrade |
 
 ---
 
-## 🔗 Related Files
+## Related Files
 
 - [[Client-Demo-Alex - Master Profile]]
 - [[Client-Demo-Alex - Skill Assessment]]

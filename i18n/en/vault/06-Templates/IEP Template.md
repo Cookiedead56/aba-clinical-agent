@@ -1,161 +1,46 @@
 ---
-type: 模板
-created: 2026-03-19
-description: IEP（个别化教育计划）标准模板，基于标准 IEP 模板结构提炼
-tags: [模板, IEP]
+type: Template
+tags: [template, IEP]
 ---
 
-# IEP Template — 个别化教育计划
+# IEP Template
 
-> [!tip] 使用说明
-> 1. 复制本模板到 `01-Clients/Client-[Code]/` 目录下
-> 2. 重命名为 `Client-[Code] - IEP-YYYY-MM-DD.md`
-> 3. 将 `{{占位符}}` 替换为实际数据
-> 4. 所有数据必须引用真实评估结果，绝不编造
+## I. Present Levels of Performance
 
----
+**Date of Birth**: [DOB] ([Age])
+**Assessment Basis**: [Assessment tool and date]
 
-```yaml
----
-type: IEP
-status: 草案          # 草案 | In Progress | 已归档
-created: {{current_date}}
-last_updated: {{current_date}}
-client: Client-{{代号}}
-tags: [IEP]
-version: v{{版本号}}
----
-```
+### 1. Strength Areas
+[List strengths with domain scores]
 
-# [[Client-{{代号}} - IEP-{{日期}}]]
+### 2. Areas Requiring Intervention
+[List deficit areas with domain scores]
 
-**制定日期**：{{IEP 会议日期}}
-**情报源**：[[Client-{{代号}} - Skill Assessment]] | [[Client-{{代号}} - Master Profile]]
+### 3. Underlying Skill Diagnostic
+[Table of underlying skills, status, data basis, affected higher skills]
 
 ---
 
-## I. 现阶段水平和功能表
+## II. Long-Term and Short-Term Goals
 
-**Date of Birth**：{{出生日期}}（{{当前年龄}}）
-**评估依据**：{{评估工具名称及日期}}
-
-### 1. Strengths领域
-
-> 从评估数据中提取，列出个案的核心Strengths。每项用数据支撑。
-
-1. **{{Strengths1名称}}**：{{具体数据和表现描述}}
-2. **{{Strengths2名称}}**：{{具体数据和表现描述}}
-3. ...
-
-### 2. 需要大量干预的方面
-
-> 按领域分组，每个领域列出具体短板和数据依据。
-
-#### 1) {{领域名称1}}（如：社会交往与互动质量）
-- {{短板描述 + 数据依据}}
-- {{短板描述 + 数据依据}}
-
-#### 2) {{领域名称2}}（如：Language Expression与逻辑结构）
-- {{短板描述 + 数据依据}}
-
-#### 3) {{领域名称3}}
-- {{短板描述 + 数据依据}}
-
-### 3. 底层能力诊断
-
-| 底层能力 | 当前状态 | 数据依据 | 影响的上层技能 |
+### Long-Term Goals (Semester)
+| Domain | Semester Goal | Measurement | Feedback Frequency |
 |:---|:---|:---|:---|
-| {{能力名称}} | ✅ 就位 / ⚠️ 部分就位 / ❌ 明显不足 | {{数据}} | {{影响}} |
-| ... | ... | ... | ... |
 
-### 4. 卡点根因分析
-
-> [!WARNING] 关键卡点 {{N}}：{{卡点名称}}
-> - **表象**：{{可观察的行为表现}}
-> - **根因**：{{底层原因分析}}
-> - **解决方案**：{{干预路径}}
+### Short-Term Goals (Three Months)
+| # | Target | Baseline | Monthly Target | Measurement | Strategy |
+|:---|:---|:---|:---|:---|:---|
 
 ---
 
-## II. 长期和短期目标
+## III. Educational Placement
+[Placement details]
 
-### 长期目标（学期目标）
+## IV. Meeting Record
+[Meeting date, location, participants, minutes]
 
-| 领域 | 学期目标 | 测量方式 | 反馈频率 |
-|:---|:---|:---|:---|
-| **{{领域}}** | {{目标描述，含具体百分比/次数}} | {{如何采集数据}} | 每月家长反馈 |
-| ... | ... | ... | ... |
+## V. Reinforcer Management & Behavior Support Plan
+[Reinforcer tables and behavior support plan summary]
 
-### 短期目标（三个月）
-
-#### 目标{{N}}：{{领域名称}}
-
-| 编号 | 三个月内需达到的目标 | 测量方式 | 可参考策略 |
-|:---|:---|:---|:---|
-| {{编号}} | {{目标描述}} | {{测量方式}} | {{策略}} |
-| ... | ... | ... | ... |
-
-**短期目标分解：**
-
-**{{第1个月}}下旬：**
-1. {{子目标1}}
-2. {{子目标2}}
-
-**{{第2个月}}下旬：**
-1. {{子目标1}}
-2. {{子目标2}}
-
-**{{第3个月}}下旬：**
-1. {{子目标1}}
-2. {{子目标2}}
-
----
-
-> 可根据个案情况设置多个目标组（目标1: 集体/语言、目标2: 社交、目标3: 灵活性与自我管理等）
-
----
-
-## III. 教育安置
-
-### 1. 特殊教育支持量
-- ☐ 流动性的：特殊教育支持少于学校日的20%时间
-- ☐ 补充性的：特殊教育支持介于学校日的20%和80%时间内
-- ☐ 全天的：特殊教育支持多于学校日的80%时间
-
-### 2. 特殊教育支持的类型
-- ☐ 视力障碍支持
-- ☐ 听力障碍支持
-- ☐ 言语障碍支持
-- ☐ 肢体残疾支持
-- ☐ 智力残疾支持
-- ☐ 精神残疾支持
-- ☐ 多重残疾支持
-- ☐ 其他障碍支持
-
----
-
-## IV. 会议记录
-
-| Item | Content |
-|:---|:---|
-| **第{{N}}次IEP会议时间** | {{年}}年{{月}}月{{日}}日 |
-| **地点** | {{地点}} |
-| **参与人员** | 父亲：{{}} / 母亲：{{}} / 督导：{{}} / 校方主管：{{}} |
-
-**meeting-notes：**
-
-{{会议讨论内容、决策记录}}
-
----
-
-**校方签字**：_______________
-
-**特殊教育支持方签字**：_______________
-
----
-
-## 🔗 引用索引
-
-- [[Client-{{代号}} - Master Profile]]
-- [[Client-{{代号}} - Skill Assessment]]
-- [[Client-{{代号}} - FBA Report]]
+## References
+[Linked files]

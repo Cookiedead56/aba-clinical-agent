@@ -1,19 +1,42 @@
-# 课后记录：[[儿童代号]]
-**日期**：{{date}}  **主课老师**：[[教师姓名]]
+---
+type: Template
+tags: [template, session-record]
+---
 
-### 📊 1. 核心目标切片数据 (仅填今日重点)
-*(请填写今日核心训练的 1-2 个目标，None需面面俱到)*
-* **目标 A**：[例如：听到名字有眼神对视]
-  * 数据/反应：[例如：10次测试，6次独立完成，4次需要手势辅助]
-* **目标 B**：[填写内容]
-  * 数据/反应：[填写内容]
+# Post-Session Record & Help Request Card
 
-### 🚨 2. 突发行为 ABC (None则填None)
-* **前因 (你在干什么)**：[例如：我刚收走他的iPad，准备上课]
-* **行为 (孩子做了什么)**：[例如：他大哭，把桌上的卡片全推到地上]
-* **后果 (你怎么处理的)**：[例如：我没说话，等他不哭了才让他捡起来]
+> To be filled out by frontline therapists after each session. Processed by the `session-reviewer` skill.
 
-### 💡 3. 今日情绪树洞与求助
-* **🌟 我的High光时刻**：[强制填写一项今天觉得自己做得好的地方，建立自信]
-* **💥 最卡壳的一个微小痛点**：[只需写一个今天最让你不知所措的瞬间]
-* **❓ 下次督导，我最希望获得的具体指导是**：[填写诉求]
+---
+
+**Date**: __________ **Therapist**: __________ **Client**: __________
+
+## 1. Today's IEP Goal Data
+
+| Goal # | Goal Description | Trials | Correct | Percentage | Prompt Level |
+|:---|:---|:---|:---|:---|:---|
+| | | | | % | |
+| | | | | % | |
+| | | | | % | |
+
+## 2. Problem Behavior ABC Record (if any)
+
+| Time | Antecedent (A) | Behavior (B) | Consequence (C) |
+|:---|:---|:---|:---|
+| | | | |
+
+## 3. My Highlight Moment
+
+[Describe one specific moment that went well today]
+
+## 4. My Biggest Micro-Challenge
+
+[Describe one specific small thing you found difficult]
+
+## 5. Reinforcer Observations
+
+[Note any changes in reinforcer effectiveness today]
+
+## 6. Help Request (Optional)
+
+[Any questions or areas where you need supervisor guidance]

